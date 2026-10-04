@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsletter</title>
+<!-- Stands in for a page exported from PopCraft: a form posting to the site's /_pc/form endpoint, as exported forms do. -->
+<style>body{font:18px/1.5 system-ui;max-width:32rem;margin:4rem auto;padding:0 1rem}input,button{font:inherit;padding:.6rem .8rem}button{cursor:pointer}</style>
+<h1>Get the monthly newsletter</h1>
+<form id="f"><input name="email" type="email" required placeholder="you@example.com"> <button>Sign up</button></form>
+<p id="done" hidden>Thanks, you're on the list.</p>
+<script type="module">
+  document.getElementById('f').addEventListener('submit', async e => {
+    e.preventDefault()
+    const values = Object.fromEntries(new FormData(e.target))
+    const r = await fetch('/_pc/form', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ form: 'newsletter', values }) })
+    if (r.ok) { e.target.hidden = true; document.getElementById('done').hidden = false } else alert((await r.json()).error)
+  })
+</script>

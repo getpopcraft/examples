@@ -1,0 +1,7 @@
+node_modules/
+out/
+*.popcraft
+look/
+.translate.js
+data.json
+data.json.tmp

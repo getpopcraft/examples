@@ -1,0 +1,12 @@
+{
+  "name": "popcraft-cli-translate",
+  "private": true,
+  "type": "module",
+  "description": "Translated copies of a PopCraft design, one per language, made with the popcraft command line.",
+  "scripts": {
+    "banner": "popcraft new banner.popcraft --name Banner && popcraft run banner.popcraft write_design --size ig-post --name Banner --script @banner.js",
+    "translate": "node translate.mjs",
+    "test": "npm run banner && npm run translate"
+  },
+  "devDependencies": { "@popcraft/cli": "^0.1.0" }
+}

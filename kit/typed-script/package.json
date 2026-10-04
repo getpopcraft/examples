@@ -1,0 +1,12 @@
+{
+  "name": "popcraft-kit-typed-script",
+  "private": true,
+  "type": "module",
+  "description": "A design script with the kit's types: completion in your editor and a typecheck before you build.",
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "build": "popcraft new pricing.popcraft --name Pricing && popcraft run pricing.popcraft write_design --size ig-post --script @pricing-post.js",
+    "test": "npm run typecheck && npm run build"
+  },
+  "devDependencies": { "@popcraft/kit": "^0.1.0", "@popcraft/cli": "^0.1.0", "typescript": "^6.0.0" }
+}

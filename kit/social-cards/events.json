@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "maker-night",
+    "title": "Maker Night",
+    "when": "Thu 12 Nov · 19:00",
+    "where": "The Old Print Works, Leeds",
+    "price": "Free, book a place",
+    "date": "12 NOV"
+  },
+  {
+    "slug": "type-walk",
+    "title": "Type Walk: Signs of the City",
+    "when": "Sat 14 Nov · 10:30",
+    "where": "Meets at Leeds Minster",
+    "price": "£8",
+    "date": "14 NOV"
+  },
+  {
+    "slug": "risograph",
+    "title": "Risograph Printing for Beginners",
+    "when": "Sun 22 Nov · 13:00",
+    "where": "Inkwell Studio, Holbeck",
+    "price": "£35 with materials",
+    "date": "22 NOV"
+  }
+]

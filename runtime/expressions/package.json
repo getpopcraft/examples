@@ -1,0 +1,8 @@
+{
+  "name": "popcraft-runtime-expressions",
+  "private": true,
+  "type": "module",
+  "description": "A weekly digest worked out with the expression functions an exported PopCraft app uses, so the numbers match the app.",
+  "scripts": { "start": "node digest.mjs", "test": "node digest.mjs" },
+  "dependencies": { "@popcraft/runtime": "^0.1.0" }
+}

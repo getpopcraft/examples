@@ -1,0 +1,13 @@
+{
+  "name": "popcraft-cli-build-a-design",
+  "private": true,
+  "type": "module",
+  "description": "A launch post, story and landscape ad from one design script, built and checked with the popcraft command line.",
+  "scripts": {
+    "build": "popcraft new launch.popcraft --name Launch && popcraft run launch.popcraft write_design --size ig-post --name Launch --script @launch.js",
+    "outline": "popcraft run launch.popcraft doc.outline",
+    "export": "popcraft run launch.popcraft export.nodes --format PNG --scale 1 --out out/",
+    "test": "npm run build && npm run outline"
+  },
+  "devDependencies": { "@popcraft/cli": "^0.1.0" }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "popcraft-runtime-site-backend",
+  "private": true,
+  "type": "module",
+  "description": "Host a site exported from PopCraft on any Node server: its forms answered by @popcraft/runtime/server, kept in a JSON file.",
+  "scripts": { "start": "node server.mjs", "test": "node smoke.mjs" },
+  "dependencies": { "@popcraft/runtime": "^0.1.0" }
+}

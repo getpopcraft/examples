@@ -1,0 +1,8 @@
+{
+  "name": "popcraft-kit-design-check",
+  "private": true,
+  "type": "module",
+  "description": "A CI gate: build every design script with @popcraft/kit and fail on contrast, text size, safe-area and layout problems.",
+  "scripts": { "check": "node check.mjs", "test": "node check.mjs" },
+  "dependencies": { "@popcraft/kit": "^0.1.0" }
+}

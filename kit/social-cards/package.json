@@ -1,0 +1,13 @@
+{
+  "name": "popcraft-kit-social-cards",
+  "private": true,
+  "type": "module",
+  "description": "One checked Instagram post per event in a JSON file, written as editable .popcraft files with @popcraft/kit.",
+  "scripts": {
+    "start": "node make-cards.mjs",
+    "test": "node make-cards.mjs"
+  },
+  "dependencies": {
+    "@popcraft/kit": "^0.1.0"
+  }
+}
