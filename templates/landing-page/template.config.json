@@ -9,5 +9,15 @@
     "responsive",
     "startup",
     "saas"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "formats": [
+    "page"
+  ],
+  "useCases": [
+    "launch",
+    "waitlist"
   ]
 }

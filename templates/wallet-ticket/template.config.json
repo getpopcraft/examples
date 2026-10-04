@@ -9,5 +9,14 @@
     "ticket",
     "wallet",
     "event"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "formats": [
+    "screen"
+  ],
+  "useCases": [
+    "event"
   ]
 }

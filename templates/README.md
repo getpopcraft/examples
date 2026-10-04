@@ -17,20 +17,32 @@ In each folder:
 - `design.js` is the template, as a **design script**: the code PopCraft's own templates are written in. Its first
   line names the size it is made at (`// size: ig-story`); `k.variants` inside makes its other sizes.
 - `template.config.json` is its listing: a stable `id` (publishing again updates the template), name, description,
-  gallery category and tags.
+  tags, and the gallery's facets: a `category` for the design's kind and the `platforms`, `formats` and `useCases`
+  people filter by (the words are `TEMPLATE_CATEGORIES`, `TEMPLATE_PLATFORMS`, `TEMPLATE_FORMATS` and
+  `TEMPLATE_USE_CASES` in `@popcraft/kit`). Whether it plays, for how long and at what frame rate come from its timeline.
+- `assets/` (when it has one) holds its own pictures and sounds. The build copies each to `media/<hash>`, and the
+  script reads it as `MEDIA['shot.png']`, a reference for `k.image(parent, MEDIA['shot.png'], w, h)` or a timeline's
+  audio.
 
-## Build, check, publish
+## Build, check, draw, publish
 
 ```bash
 npm install
+npm install -g puppeteer # once: pictures are drawn by the app in a headless Chrome
 npm run build            # every template → <folder>/template.json and <folder>/<id>.popcraft
+npm run pictures         # its thumbnail (into template.json), detail still and hover loop → <folder>/pictures/
 npm run publish:dry      # what would be uploaded
-POPCRAFT_TOKEN=pop_… npm run publish:account     # upload to your account (private until you list it)
+POPCRAFT_TOKEN=pop_… npm run publish:account     # upload, with media/ and pictures/ (private until you list it)
 ```
 
-`build` refuses a template with a problem a person would see: words too faint to read (also under a light and a dark
-brand kit, so it re-skins), text too small, words under an app's buttons, overlapping layers, an empty band, a loop
-that jumps. Fix what it says and build again.
+`build` refuses a template with a problem a person would see. That covers words too faint to read (also under a light
+and a dark brand kit, so it re-skins), text too small, words under an app's buttons, overlapping layers, an empty band,
+and a loop that jumps. It also refuses a template that misses the rules PopCraft's own templates are held to: measured
+with real type, every text holds its lines; a web page changes on a tablet and a phone; everything can be edited in the
+editor. Fix what it says and build again.
+
+`pictures` draws exactly what the gallery shows, the way PopCraft draws its own templates' pictures. Look at
+`pictures/still.webp` and `pictures/anim.mp4` before you publish: they are what people choose by.
 
 The token is a personal access token with the `marketplace:publish` scope (Account → Personal access tokens), or log
 in once with `npx popcraft login`. Templates land private in your account's template gallery; list one publicly from
@@ -60,5 +72,6 @@ The whole method, with the bar for each format and the traps that cost rounds:
 
 ## Your own template
 
-Copy a folder, give `template.config.json` a new `id`, and change `design.js`. Run `node build.mjs <folder>` while you
-work, open the `.popcraft` to look, and publish when it is right.
+Copy a folder, give `template.config.json` a new `id`, and change `design.js`. Put your own pictures and sounds in
+`assets/`. Run `node build.mjs <folder>` while you work, open the `.popcraft` to look, run `npx popcraft pictures
+<folder>` and look at those too, and publish when it is right.

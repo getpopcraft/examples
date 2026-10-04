@@ -9,5 +9,14 @@
     "saas",
     "plans",
     "responsive"
+  ],
+  "platforms": [
+    "web"
+  ],
+  "formats": [
+    "page"
+  ],
+  "useCases": [
+    "pricing"
   ]
 }

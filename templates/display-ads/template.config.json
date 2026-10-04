@@ -9,5 +9,17 @@
     "banner",
     "google ads",
     "promo"
+  ],
+  "platforms": [
+    "web",
+    "linkedin",
+    "instagram"
+  ],
+  "formats": [
+    "ad"
+  ],
+  "useCases": [
+    "sale",
+    "brand-intro"
   ]
 }

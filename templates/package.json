@@ -5,10 +5,15 @@
   "description": "Complete PopCraft templates as design scripts: build, check, and publish them to your account.",
   "scripts": {
     "build": "node build.mjs",
+    "pictures": "npm run build && popcraft pictures .",
     "publish:dry": "npm run build && popcraft publish . --dry-run",
-    "publish:account": "npm run build && popcraft publish .",
+    "publish:account": "npm run pictures && popcraft publish .",
     "test": "npm run build && popcraft publish . --dry-run"
   },
-  "dependencies": { "@popcraft/kit": "^0.4.0" },
-  "devDependencies": { "@popcraft/cli": "^0.4.0" }
+  "dependencies": {
+    "@popcraft/kit": "^0.5.0"
+  },
+  "devDependencies": {
+    "@popcraft/cli": "^0.5.0"
+  }
 }

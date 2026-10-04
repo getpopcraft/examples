@@ -9,5 +9,16 @@
     "gif",
     "header",
     "promo"
+  ],
+  "platforms": [
+    "email"
+  ],
+  "formats": [
+    "email",
+    "banner"
+  ],
+  "useCases": [
+    "announcement",
+    "sale"
   ]
 }

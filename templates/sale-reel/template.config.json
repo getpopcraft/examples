@@ -9,5 +9,18 @@
     "story",
     "music",
     "promo"
+  ],
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "formats": [
+    "reel",
+    "story",
+    "post",
+    "portrait-post"
+  ],
+  "useCases": [
+    "sale"
   ]
 }
