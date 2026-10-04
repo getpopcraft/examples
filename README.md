@@ -6,7 +6,7 @@ here works with what you can install today.
 
 | Package | Example | What it does |
 |---|---|---|
-| **Templates** | [templates](templates) | **Six complete templates** to build, check and publish to your account, and to base your own on: a sale reel cut to music, a responsive landing page, a pricing page with a working switch, an email header, a display ad set and a phone wallet ticket |
+| **Templates** | [templates](templates) | **Twenty-five templates in every format**, written as PopCraft's own are (most are the gallery's own sources): launch films, music videos, reels, 3D, anime, web pages, Lottie, email, decks, app screens. Build, check against every official rule, picture and publish them with `popcraft template` |
 | [`@popcraft/kit`](https://www.npmjs.com/package/@popcraft/kit) | [kit/social-cards](kit/social-cards) | One checked Instagram post per event in a JSON file, as editable `.popcraft` files |
 | | [kit/design-check](kit/design-check) | A CI gate that fails on unreadable text, text too small, words under an app's buttons and empty frames |
 | | [kit/typed-script](kit/typed-script) | A design script with the kit's types: completion in your editor and a typecheck before you build |
@@ -22,6 +22,7 @@ Node 25 or later for the CLI examples, 24 or later for the rest.
 
 - [Packages](https://popcraft.app/docs/api/packages): which package is for what
 - [Design reference](https://popcraft.app/docs/api/design-reference): the kit by topic, with worked examples
+- [Making templates](https://popcraft.app/docs/api/templates): templates as PopCraft's own are made
 - [Command line](https://popcraft.app/docs/api/cli) · [Designing with an AI agent](https://popcraft.app/docs/api/agents)
 - [Exporting to Next.js](https://popcraft.app/docs/exporting/nextjs): what `@popcraft/runtime` is part of
 

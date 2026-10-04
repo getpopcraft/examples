@@ -8,3 +8,5 @@ data.json.tmp
 template.json
 pictures/
 media/
+build/
+.media/

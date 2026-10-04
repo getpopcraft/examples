@@ -1,77 +1,69 @@
 # Templates
 
-Six complete PopCraft templates, ready to build, check and publish to your account, and to base your own on. Each
-folder is one template:
+Twenty-five templates in every format PopCraft has, written exactly as PopCraft's own gallery templates are. Twenty-four
+are official templates, copied out with `popcraft template new --from <id>`: the gallery's own code, the best worked
+examples of their formats there are. The 25th shows your own media. Every one passes every check the official templates
+pass.
 
-| Template | Sizes | What it shows |
-|---|---|---|
-| [sale-reel](sale-reel) | Story 9:16, post 1:1, portrait 4:5 | A 14 s reel cut to a music track's beats: cues, a counting price, word swaps for captions, art kept out of the apps' buttons |
-| [landing-page](landing-page) | Desktop, laptop, tablet, phone | A responsive page with a moving hero, real sections and a sign-up; rows become columns and type steps down |
-| [pricing-page](pricing-page) | Desktop, laptop, tablet, phone | A monthly / yearly switch that works: variables, a component's variants, a click that changes every price |
-| [email-header](email-header) | 600 × 300 | An animated header whose whole message is on frame one, for clients that show only that |
-| [display-ads](display-ads) | Landscape, square, 4:5, LinkedIn | Drawn art, and taller cuts recomposed rather than squashed |
-| [wallet-ticket](wallet-ticket) | iPhone | A phone screen laid out at phone size: a clipped card, a QR block, readable type |
+| Template | What it shows |
+|---|---|
+| [Product Hunt launch film](video/launch-film.ts) | Scenes with transitions, a music bed, a product window, every scene boundary checked |
+| [Hip-hop lyric video](video/music-video-lyrics.ts) | Words landing on the beats the track's own analysis finds |
+| [Sale drop reel](video/sale-reel.ts) | A countdown price, captions, a 9:16 master with square and 4:5 cuts |
+| [Story ad](video/story-ad.ts) | A three-scene vertical ad |
+| [Anime duel](video/anime-short.ts) | The anime engine: characters, effects and camera in scenes |
+| [3D App Store preview](video/app-preview-3d.ts) | A phone placed and lit in 3D |
+| [Kinetic word swap](video/kinetic-word-swap.ts) | Type that swaps word by word |
+| [Animated bar chart](video/chart-bars.ts) | Data that counts and grows |
+| [YouTube end screen](video/youtube-end-screen.ts) | Words kept off the slots YouTube fills |
+| [Logo sting](video/logo-sting.ts) | A three-second shimmer reveal |
+| [Comic issue reel](video/comic-issue-reel.ts) | Panels, lettering and halftone from the comic theme |
+| [Launch post with a screenshot](social/screenshot-launch.ts) | **Your own media**: a real product screenshot via `media()`, fitted to every cut |
+| [LinkedIn carousel](social/carousel.ts) | A multi-slide carousel |
+| [YouTube thumbnails](social/youtube-thumbnails.ts) | A thumbnail set |
+| [App Store panorama](social/store-screenshots.ts) | Store screenshots that run on from one to the next |
+| [Quote post](social/quote-post.ts) | A typographic quote that builds word by word |
+| [Bento landing page](web/landing-bento.ts) | Responsive: desktop, laptop, tablet and phone, a moving hero |
+| [Dark pricing page](web/pricing-dark.ts) | A monthly / yearly switch that works |
+| [Festival presale site](web/festival-site.ts) | A themed event site |
+| [Generate button (Lottie)](web/lottie-generate-button.ts) | A seamless loop that exports to Lottie for a real product |
+| [Launch email header](email/launch-header.ts) | An animated GIF header whose message is on its first frame |
+| [Lesson deck](slides/lesson-deck.ts) | Slides with click builds and transitions present mode and PPTX know |
+| [Onboarding carousel](app/onboarding.ts) | App screens with motion |
+| [RPG game UI](app/game-ui.ts) | A game's interface screens |
+| [Festival wallet ticket](app/wallet-ticket.ts) | A phone ticket from a theme family's factory |
 
-In each folder:
-
-- `design.js` is the template, as a **design script**: the code PopCraft's own templates are written in. Its first
-  line names the size it is made at (`// size: ig-story`); `k.variants` inside makes its other sizes.
-- `template.config.json` is its listing: a stable `id` (publishing again updates the template), name, description,
-  tags, and the gallery's facets: a `category` for the design's kind and the `platforms`, `formats` and `useCases`
-  people filter by (the words are `TEMPLATE_CATEGORIES`, `TEMPLATE_PLATFORMS`, `TEMPLATE_FORMATS` and
-  `TEMPLATE_USE_CASES` in `@popcraft/kit`). Whether it plays, for how long and at what frame rate come from its timeline.
-- `assets/` (when it has one) holds its own pictures and sounds. The build copies each to `media/<hash>`, and the
-  script reads it as `MEDIA['shot.png']`, a reference for `k.image(parent, MEDIA['shot.png'], w, h)` or a timeline's
-  audio.
-
-## Build, check, draw, publish
+## Run them
 
 ```bash
 npm install
-npm install -g puppeteer # once: pictures are drawn by the app in a headless Chrome
-npm run build            # every template → <folder>/template.json and <folder>/<id>.popcraft
-npm run pictures         # its thumbnail (into template.json), detail still and hover loop → <folder>/pictures/
-npm run publish:dry      # what would be uploaded
-POPCRAFT_TOKEN=pop_… npm run publish:account     # upload, with media/ and pictures/ (private until you list it)
+npm install -g puppeteer     # once: look and pictures are drawn by the app in a headless Chrome
+npm run check                # build every source into build/<id>/, then every official check
+npm run look                 # every size at rest, at four moments and under a light and a dark brand kit
+npm run pictures             # the gallery's thumbnail, detail still and hover loop
+POPCRAFT_TOKEN=pop_… npm run publish     # all of that, then upload to your account (private until you list it)
 ```
 
-`build` refuses a template with a problem a person would see. That covers words too faint to read (also under a light
-and a dark brand kit, so it re-skins), text too small, words under an app's buttons, overlapping layers, an empty band,
-and a loop that jumps. It also refuses a template that misses the rules PopCraft's own templates are held to: measured
-with real type, every text holds its lines; a web page changes on a tablet and a phone; everything can be edited in the
-editor. Fix what it says and build again.
+Each source builds into `build/<id>/`: `template.json` (what your account takes), `media/` (its own files),
+`<id>.popcraft` (open it in PopCraft), `look/` and `pictures/`.
 
-`pictures` draws exactly what the gallery shows, the way PopCraft draws its own templates' pictures. Look at
-`pictures/still.webp` and `pictures/anim.mp4` before you publish: they are what people choose by.
+## Make your own
 
-The token is a personal access token with the `marketplace:publish` scope (Account → Personal access tokens), or log
-in once with `npx popcraft login`. Templates land private in your account's template gallery; list one publicly from
-the gallery when you want to.
+Start from whichever official template is closest. There are 1,275, and `--from` copies any of them:
 
-## Making one that is as good as these
+```bash
+npx popcraft template list launch reel --animated     # best matches first; --format, --platform, --use-case, --kind
+npx popcraft template new video/my-launch.ts --from motion-saas-film-product-hunt-launch
+npx popcraft template check video/my-launch.ts
+```
 
-The checks catch what can be measured. These templates are good because each was made in rounds of build, look and
-fix, against a few rules:
+Read the source you copied before changing it. It names the shared modules it is built from
+(`@popcraft/kit/templates/…`), and every one of them is in `node_modules/@popcraft/kit/src/templates/`: the Kit, the
+helpers, twelve SaaS style systems, fifty-odd theme kits, the comic and anime engines, 3D, Lottie and the music library.
 
-1. **One idea, said visually.** The reel is a receipt that will not stop printing; the ads are a loaf on a plate.
-   Decide the picture before the layout.
-2. **Real words.** A real product, real prices, real dates. Placeholder text hides every layout problem.
-3. **Every size designed, not squashed.** Each `k.variants` entry recomposes its size: the story keeps words inside
-   the safe area and puts art below it; tall ad cuts stack art over type.
-4. **Brand roles, never raw colours on words.** Words sit on `text`, `onCard`, `onPrimary`…, so applying a brand kit
-   re-skins the template and it still reads. The build checks this under two very different kits.
-5. **Motion that means something, and a loop that closes.** Things arrive on the beat, hold long enough to read, and
-   are back where they started at the end.
-6. **Look at it.** Open `<id>.popcraft` in PopCraft and look at every size and, for motion, several moments; or render
-   from the terminal: `npx popcraft run sale-reel/sale-reel.popcraft vision.lookAt --out look/` (needs puppeteer).
-   Name what is wrong specifically, fix it, build again.
+The checks measure what can be measured: practices, contrast, type sizes, safe areas, real-type layout, responsive web,
+brand-kit re-skins, editability, and every cue's motion at every size. They cannot judge composition, so run `look` and
+look at every picture. Name what is wrong, fix it, and look again.
 
-The whole method, with the bar for each format and the traps that cost rounds:
-[Designing with an AI agent](https://popcraft.app/docs/api/agents) and the
-[design reference](https://popcraft.app/docs/api/design-reference). It reads the same for a person.
-
-## Your own template
-
-Copy a folder, give `template.config.json` a new `id`, and change `design.js`. Put your own pictures and sounds in
-`assets/`. Run `node build.mjs <folder>` while you work, open the `.popcraft` to look, run `npx popcraft pictures
-<folder>` and look at those too, and publish when it is right.
+The guide is [Making templates](https://popcraft.app/docs/api/templates). An agent should also read [Designing with an
+AI agent](https://popcraft.app/docs/api/agents).

@@ -2,13 +2,14 @@
   "name": "popcraft-templates",
   "private": true,
   "type": "module",
-  "description": "Complete PopCraft templates as design scripts: build, check, and publish them to your account.",
+  "description": "PopCraft templates written as PopCraft's own are: 25 sources across every format, built, checked against every official rule, pictured and published with popcraft template.",
   "scripts": {
-    "build": "node build.mjs",
-    "pictures": "npm run build && popcraft pictures .",
-    "publish:dry": "npm run build && popcraft publish . --dry-run",
-    "publish:account": "npm run pictures && popcraft publish .",
-    "test": "npm run build && popcraft publish . --dry-run"
+    "check": "popcraft template check .",
+    "look": "popcraft template look .",
+    "pictures": "popcraft template pictures .",
+    "publish": "popcraft template publish .",
+    "list": "popcraft template list",
+    "test": "popcraft template check ."
   },
   "dependencies": {
     "@popcraft/kit": "^0.5.0"
