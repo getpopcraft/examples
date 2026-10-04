@@ -1,0 +1,14 @@
+{
+  "name": "popcraft-templates",
+  "private": true,
+  "type": "module",
+  "description": "Complete PopCraft templates as design scripts: build, check, and publish them to your account.",
+  "scripts": {
+    "build": "node build.mjs",
+    "publish:dry": "npm run build && popcraft publish . --dry-run",
+    "publish:account": "npm run build && popcraft publish .",
+    "test": "npm run build && popcraft publish . --dry-run"
+  },
+  "dependencies": { "@popcraft/kit": "^0.4.0" },
+  "devDependencies": { "@popcraft/cli": "^0.4.0" }
+}

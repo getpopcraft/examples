@@ -1,0 +1,13 @@
+{
+  "id": "pricing-page",
+  "name": "Pricing page with a working switch",
+  "description": "A pricing page whose monthly / yearly switch works: flip it and every price changes, on desktop, tablet and phone.",
+  "category": "web",
+  "tags": [
+    "pricing",
+    "website",
+    "saas",
+    "plans",
+    "responsive"
+  ]
+}
