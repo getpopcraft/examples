@@ -14,7 +14,7 @@ with its own products. No component is rewritten by hand.
 | --- | --- |
 | `design/fieldwork.popcraft` | The design: open it in PopCraft (**Import as new file**), change it, save it back here |
 | `design/media/` | Its pictures (the hero, the story, the sample products), by content hash |
-| `components/popcraft/` | The design exported as components: `HomePage`, `SearchPage`, `ProductPage`, `CartPage` |
+| `components/popcraft/` | The design exported as components: `HomePage`, `SearchPage`, `CategoryPage`, `ProductPage`, `CartPage` |
 | `public/popcraft/` | The pictures they draw |
 | `app/` | Next.js Commerce's routes, each fetching from Shopify and rendering a PopCraft component |
 | `app/actions.ts` | The design's forms (add to cart, remove, checkout, search) as server actions over Next.js Commerce's cart |

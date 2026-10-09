@@ -1,7 +1,6 @@
-import { search } from "app/actions";
-import { SearchPage } from "components/popcraft";
+import { CategoryPage } from "components/popcraft";
 import { defaultSort, sorting } from "lib/constants";
-import { storeFrame } from "lib/popcraft";
+import { storeCategories, storeFrame } from "lib/popcraft";
 import { getCollection, getCollectionProducts } from "lib/shopify";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -30,9 +29,19 @@ export default async function Category(props: {
   const { sort } = searchParams as { [key: string]: string };
   const { sortKey, reverse } =
     sorting.find((item) => item.slug === sort) || defaultSort;
-  const [products, frame] = await Promise.all([
+  const [collection, products, categories, frame] = await Promise.all([
+    getCollection(params.collection),
     getCollectionProducts({ collection: params.collection, sortKey, reverse }),
+    storeCategories(),
     storeFrame(),
   ]);
-  return <SearchPage products={products} onSearch={search} {...frame} />;
+  if (!collection) return notFound();
+  return (
+    <CategoryPage
+      collection={collection}
+      products={products}
+      categories={categories}
+      {...frame}
+    />
+  );
 }

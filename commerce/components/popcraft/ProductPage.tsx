@@ -18,7 +18,7 @@ export interface ProductPageProps {
 }
 
 const SAMPLE_PRODUCT: CommerceItem = {
-  "id": "dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3",
+  "id": "56ed2e63-c3de-4050-a6d2-981fea395b59",
   "values": {
     "title": "Linen overshirt",
     "handle": "linen-overshirt",
@@ -36,7 +36,7 @@ const SAMPLE_PRODUCT: CommerceItem = {
 
 const SAMPLE_CART: CommerceItem[] = [
   {
-    "id": "099165ff-241c-46bb-bbde-301f5b3ed528",
+    "id": "d13b8d84-4170-4344-89b8-16d116885ffa",
     "values": {
       "count": 2,
       "subtotal": "£243.00",
@@ -49,7 +49,7 @@ const SAMPLE_CART: CommerceItem[] = [
 
 const SAMPLE_PRODUCTS: CommerceItem[] = [
   {
-    "id": "dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3",
+    "id": "56ed2e63-c3de-4050-a6d2-981fea395b59",
     "values": {
       "title": "Linen overshirt",
       "handle": "linen-overshirt",
@@ -65,7 +65,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca",
+    "id": "5e515d30-897c-4c19-b099-5870d6f5656e",
     "values": {
       "title": "Indigo chore jacket",
       "handle": "indigo-chore-jacket",
@@ -81,7 +81,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "e0a793a5-c70c-46b2-b6c0-d8cffb21639f",
+    "id": "07d57f26-345c-46ce-959a-7fb64f2a946e",
     "values": {
       "title": "Canvas work trouser",
       "handle": "canvas-work-trouser",
@@ -97,7 +97,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "b89d93a3-3f0c-4234-a3f5-0a3f1d59338f",
+    "id": "3ee6b33b-5941-497c-a77a-c5de61dddf0a",
     "values": {
       "title": "Fisherman jumper",
       "handle": "fisherman-jumper",
@@ -113,7 +113,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "4288312a-573f-42f4-986a-df670f4d7966",
+    "id": "086c362f-12f8-40d8-abb3-41c8a13286f7",
     "values": {
       "title": "Heavyweight tee",
       "handle": "heavyweight-tee",
@@ -129,7 +129,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "213cc024-6be3-4df4-ae01-e392398e14ee",
+    "id": "ac41a306-731d-47d1-888d-93a181a62cfb",
     "values": {
       "title": "Waxed field cap",
       "handle": "waxed-field-cap",
@@ -145,7 +145,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "93eee42e-e7d4-4db0-ac8c-ad4c69ee757d",
+    "id": "7df713f5-172b-4512-ad11-b50b46df4000",
     "values": {
       "title": "Market tote",
       "handle": "market-tote",
@@ -161,7 +161,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "763365bf-657e-4c1f-82f3-8590123e9061",
+    "id": "6a05e218-627d-4049-b0e8-ace81dd7df1e",
     "values": {
       "title": "Workshop boot",
       "handle": "workshop-boot",
@@ -180,28 +180,28 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
 
 const SAMPLE_MENU: CommerceItem[] = [
   {
-    "id": "eb767dcd-e2b5-4558-b8c3-b37c23ad1bb3",
+    "id": "00aeaa2f-c054-4811-b0c2-dba3c919c58b",
     "values": {
       "title": "Shirts",
       "url": "/search/shirts"
     }
   },
   {
-    "id": "d71504b6-9b58-4b15-a631-f3860fec366f",
+    "id": "d5f1399a-3ea0-4e1e-bcce-cc226af40fb7",
     "values": {
       "title": "Jackets",
       "url": "/search/jackets"
     }
   },
   {
-    "id": "4ac3fc0d-151e-4437-a1e3-e4e90a7d9c59",
+    "id": "38815574-c673-4c2a-8794-958a4ea28edd",
     "values": {
       "title": "Knitwear",
       "url": "/search/knitwear"
     }
   },
   {
-    "id": "7bc78cf0-91df-472c-8580-a5dde7ca2160",
+    "id": "3f68da9d-9241-4472-8eff-7c5a69a6985f",
     "values": {
       "title": "Repairs",
       "url": "/repairs"
@@ -211,149 +211,149 @@ const SAMPLE_MENU: CommerceItem[] = [
 
 const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @media (max-width: 1024px) {
-  [data-pc-id="996255cd-b965-49a2-a4e4-99f086a00109~__pcitem__"] {
+  [data-pc-id="ce62996c-7e2d-44fb-8f35-aaa0aa65fca2~__pcitem__"] {
     min-height: max(2076px, 100dvh) !important;
   }
-  [data-pc-id="10e70f7e-d824-4198-9090-6578d0283dc9~__pcitem__"] {
+  [data-pc-id="3b2726a1-d0bb-4089-b329-8099b6581b6d~__pcitem__"] {
     padding: 22px 40px 22px 40px !important;
   }
-  [data-pc-id="03ee4c30-8384-40d8-bc8f-59754623b04b~__pcitem__"] {
+  [data-pc-id="fe80d85b-18f2-4483-9a2b-f0c05f492a2b~__pcitem__"] {
     flex-direction: column !important;
     padding: 32px 40px 24px 40px !important;
   }
-  [data-pc-id="22adfe89-6578-40f9-a4ae-a8c3359f7d2c~__pcitem__"] {
+  [data-pc-id="e61b37c3-608f-4c59-a9ad-df85fe3a83b0~__pcitem__"] {
     width: revert !important;
     max-width: revert !important;
     height: 688px !important;
     align-self: stretch !important;
   }
-  [data-pc-id="d9a47309-7bb2-4596-9028-85dc3b767366~__pcitem__"] {
+  [data-pc-id="047d3a30-5be6-4274-aea4-9c1105dbb051~__pcitem__"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="5df2e742-a585-4695-b772-4d4e981dcb5b~__pcitem__"] {
+  [data-pc-id="e521b618-7907-4f2c-9862-a8db22b53243~__pcitem__"] {
     padding: 56px 40px 24px 40px !important;
   }
-  [data-pc-id="c144ab37-0907-491d-ab63-dfce9547bbf7~__pcitem__"] {
+  [data-pc-id="53cb4205-bc9f-4336-8581-a10931dad7ae~__pcitem__"] {
     grid-template-columns: 1fr 1fr !important;
     gap: 16px !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     height: 336px !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     height: 336px !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     height: 336px !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     height: 336px !important;
   }
-  [data-pc-id="c742d5e4-961f-4812-8f19-14c9096b7ddb~__pcitem__"] {
+  [data-pc-id="62725e9c-4dff-4532-8fdc-817f1b997856~__pcitem__"] {
     justify-content: revert !important;
     flex-direction: column !important;
     padding: 56px 40px 56px 40px !important;
   }
-  [data-pc-id="64c9db84-6e64-4439-86ad-d3b3039dcadc~__pcitem__"] {
+  [data-pc-id="cdf724ea-4771-4460-a2e6-938063cdf3f9~__pcitem__"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="6dcdf9ea-8410-4be2-86b9-458d3054c244~__pcitem__"] {
+  [data-pc-id="8acc731b-5bf2-4411-b0a2-5d50d337c452~__pcitem__"] {
     align-self: stretch !important;
   }
 }
 @media (max-width: 640px) {
-  [data-pc-id="996255cd-b965-49a2-a4e4-99f086a00109~__pcitem__"] {
+  [data-pc-id="ce62996c-7e2d-44fb-8f35-aaa0aa65fca2~__pcitem__"] {
     min-height: max(1572px, 100dvh) !important;
   }
-  [data-pc-id="10e70f7e-d824-4198-9090-6578d0283dc9~__pcitem__"] {
+  [data-pc-id="3b2726a1-d0bb-4089-b329-8099b6581b6d~__pcitem__"] {
     padding: 22px 20px 22px 20px !important;
   }
-  [data-pc-id="ea68196f-8c4c-4fe9-9a77-fd27199f5ef2~__pcitem__"] {
+  [data-pc-id="7f3173cb-944c-4a0b-aa7c-864205e6f814~__pcitem__"] {
     display: none !important;
   }
-  [data-pc-id="ff2724cb-4465-47b2-9963-680df993c007~__pcitem__"] {
+  [data-pc-id="0bad61ab-aec9-4d34-aa6e-b424850ae445~__pcitem__"] {
     display: none !important;
   }
-  [data-pc-id="6984a89a-4de4-47af-9009-6a23c1b907c6~__pcitem__"] {
+  [data-pc-id="31ce0f11-0738-44bf-b143-38aea8448cd9~__pcitem__"] {
     display: none !important;
   }
-  [data-pc-id="afef0d2f-9bae-4594-98c7-404a294685b9~__pcitem__"] {
+  [data-pc-id="5427d98f-7a9f-4f1b-aa9c-c605ebdb40cf~__pcitem__"] {
     display: none !important;
   }
-  [data-pc-id="a5cfc3df-6467-4b12-af72-0bdb6cf93ce2~__pcitem__"] {
+  [data-pc-id="e4cbd97c-963b-45ff-969b-fe4e0551a452~__pcitem__"] {
     display: none !important;
   }
-  [data-pc-id="03ee4c30-8384-40d8-bc8f-59754623b04b~__pcitem__"] {
+  [data-pc-id="fe80d85b-18f2-4483-9a2b-f0c05f492a2b~__pcitem__"] {
     padding: 32px 20px 24px 20px !important;
   }
-  [data-pc-id="22adfe89-6578-40f9-a4ae-a8c3359f7d2c~__pcitem__"] {
+  [data-pc-id="e61b37c3-608f-4c59-a9ad-df85fe3a83b0~__pcitem__"] {
     height: 335px !important;
   }
-  [data-pc-id="5df2e742-a585-4695-b772-4d4e981dcb5b~__pcitem__"] {
+  [data-pc-id="e521b618-7907-4f2c-9862-a8db22b53243~__pcitem__"] {
     padding: 56px 20px 24px 20px !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     height: 159px !important;
   }
-  [data-pc-id="7f8c6900-6d8d-4378-8c6b-7b05e0fc0600~__pcitem__~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="613f9bf8-673c-4e0e-8cee-1c735077d76b~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="478b707e-c6e9-4381-bf3c-6488e9467994~__pcitem__~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="38f6c309-13be-4a89-8022-4f63f48e7928~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     height: 159px !important;
   }
-  [data-pc-id="7f8c6900-6d8d-4378-8c6b-7b05e0fc0600~__pcitem__~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="613f9bf8-673c-4e0e-8cee-1c735077d76b~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="478b707e-c6e9-4381-bf3c-6488e9467994~__pcitem__~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="38f6c309-13be-4a89-8022-4f63f48e7928~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     height: 159px !important;
   }
-  [data-pc-id="7f8c6900-6d8d-4378-8c6b-7b05e0fc0600~__pcitem__~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="613f9bf8-673c-4e0e-8cee-1c735077d76b~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="478b707e-c6e9-4381-bf3c-6488e9467994~__pcitem__~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="38f6c309-13be-4a89-8022-4f63f48e7928~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="036f09af-578d-4977-b033-8454e96349cb~__pcitem__~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="8051e05f-2918-4397-b1ac-9ab9c12f56bf~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     height: 159px !important;
   }
-  [data-pc-id="7f8c6900-6d8d-4378-8c6b-7b05e0fc0600~__pcitem__~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="613f9bf8-673c-4e0e-8cee-1c735077d76b~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="478b707e-c6e9-4381-bf3c-6488e9467994~__pcitem__~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="38f6c309-13be-4a89-8022-4f63f48e7928~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="c742d5e4-961f-4812-8f19-14c9096b7ddb~__pcitem__"] {
+  [data-pc-id="62725e9c-4dff-4532-8fdc-817f1b997856~__pcitem__"] {
     padding: 56px 20px 56px 20px !important;
   }
 }
-@keyframes timeline-a00109-0 {
+@keyframes timeline-65fca2-0 {
   0% { opacity: 0; }
   0.556% { opacity: 0.187; }
   1.111% { opacity: 0.349; }
@@ -369,7 +369,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   7.222% { opacity: 0.998; }
   100% { opacity: 1; }
 }
-@keyframes timeline-a00109-1 {
+@keyframes timeline-65fca2-1 {
   0% { opacity: 0; }
   1.667% { opacity: 0; }
   2.222% { opacity: 0.12; }
@@ -389,7 +389,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   14.444% { opacity: 1; }
   100% { opacity: 1; }
 }
-@keyframes timeline-a00109-2 {
+@keyframes timeline-65fca2-2 {
   0% { transform: translate(0px, 205px); opacity: 0; }
   5% { transform: translate(0px, 205px); opacity: 0; animation-timing-function: step-end; }
   5.556% { transform: translate(0px, 139.48px); opacity: 0.32; }
@@ -409,35 +409,35 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
 export function ProductPage({ product, cart, products, menu, onAddToCart }: ProductPageProps = {}) {
   const item = product ? commerceItem("commerce.product", product) : SAMPLE_PRODUCT
   return (
-    <div style={{ position: 'relative', width: '100%', background: 'var(--brand-paper)', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', minHeight: 'max(1545px, 100dvh)' }} data-pc-id={"996255cd-b965-49a2-a4e4-99f086a00109~" + item.id}>
+    <div style={{ position: 'relative', width: '100%', background: 'var(--brand-paper)', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', minHeight: 'max(1545px, 100dvh)' }} data-pc-id={"ce62996c-7e2d-44fb-8f35-aaa0aa65fca2~" + item.id}>
       <style>{KEYFRAMES}</style>
-      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '0px', padding: '22px 72px 22px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-a00109-0 6000ms linear 0ms 1 normal both' }} data-pc-id={"10e70f7e-d824-4198-9090-6578d0283dc9~" + item.id} data-motion-child="">
-        <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/" data-pc-id={"f593e2ab-5387-4171-94f6-4c29a240c867~" + item.id}>
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '0px', padding: '22px 72px 22px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-65fca2-0 6000ms linear 0ms 1 normal both' }} data-pc-id={"3b2726a1-d0bb-4089-b329-8099b6581b6d~" + item.id} data-motion-child="">
+        <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/" data-pc-id={"91a89a0c-15fb-4479-8ec3-492a8c57c6ae~" + item.id}>
           {'Fieldwork'}
         </a>
-        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '28px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"ea68196f-8c4c-4fe9-9a77-fd27199f5ef2~" + item.id}>
-          <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"ff2724cb-4465-47b2-9963-680df993c007~" + item.id}>
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '28px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"7f3173cb-944c-4a0b-aa7c-864205e6f814~" + item.id}>
+          <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"0bad61ab-aec9-4d34-aa6e-b424850ae445~" + item.id}>
             {'Shop all'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"6984a89a-4de4-47af-9009-6a23c1b907c6~" + item.id}>
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"31ce0f11-0738-44bf-b143-38aea8448cd9~" + item.id}>
             {'Shirts'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"afef0d2f-9bae-4594-98c7-404a294685b9~" + item.id}>
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"5427d98f-7a9f-4f1b-aa9c-c605ebdb40cf~" + item.id}>
             {'Jackets'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"a5cfc3df-6467-4b12-af72-0bdb6cf93ce2~" + item.id}>
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id={"e4cbd97c-963b-45ff-969b-fe4e0551a452~" + item.id}>
             {'Knitwear'}
           </a>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"7384ed5c-f87d-4208-8760-f80bce28b54f~" + item.id}>
+        <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"3e729a20-4cc8-4d00-bc47-a76b97e76d13~" + item.id}>
           {(cart ? [commerceItem("commerce.cart", cart)] : SAMPLE_CART).slice(0, 1).map(item => (
             <Fragment key={item.id}>
-              <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', borderRadius: '999px', border: '1.5px solid var(--brand-text)', flexDirection: 'row', alignItems: 'center', gap: '8px', padding: '6px 6px 6px 16px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start' }} href="/cart" data-pc-id={"48bfdf70-7ad5-48a0-9a6f-39f92d4b05b0~" + item.id}>
-                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"42c519c1-7939-4e36-bf1f-ee16a4b9ee4c~" + item.id}>
+              <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', borderRadius: '999px', border: '1.5px solid var(--brand-text)', flexDirection: 'row', alignItems: 'center', gap: '8px', padding: '6px 6px 6px 16px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start' }} href="/cart" data-pc-id={"1b836c8d-c1c1-40a4-bcb0-8f50b22ef6aa~" + item.id}>
+                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"fe27b309-d062-4566-a207-4c19fa5ea07a~" + item.id}>
                   {'Cart'}
                 </p>
-                <div style={{ width: '26px', height: '26px', background: 'var(--brand-primary)', borderRadius: '13px', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"f1c79f7c-c03a-4446-9c34-551d3dcd22ff~" + item.id}>
-                  <p style={{ width: '26px', margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'center', color: 'var(--brand-onprimary)', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"9591bc47-53f5-4fa9-80c1-55f7706a5169~" + item.id}>
+                <div style={{ width: '26px', height: '26px', background: 'var(--brand-primary)', borderRadius: '13px', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"7bd5ef96-87e9-44d3-ae5b-1697c699fba3~" + item.id}>
+                  <p style={{ width: '26px', margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'center', color: 'var(--brand-onprimary)', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"6ee9144b-a5f7-4579-a592-a86b1f58b276~" + item.id}>
                     {commerceWords(item, "count")}
                   </p>
                 </div>
@@ -446,53 +446,53 @@ export function ProductPage({ product, cart, products, menu, onAddToCart }: Prod
           ))}
         </div>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '640px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"3ebd4a1d-17bb-4300-bb31-e01a971b768a~" + item.id}>
-        <div style={{ display: 'flex', flexDirection: 'row', gap: '64px', padding: '32px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"03ee4c30-8384-40d8-bc8f-59754623b04b~" + item.id}>
-          <div style={{ width: '726px', height: '726px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start', animation: 'timeline-a00109-1 6000ms linear 0ms 1 normal both' }} data-pc-id={"22adfe89-6578-40f9-a4ae-a8c3359f7d2c~" + item.id} data-motion-child="" />
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', animation: 'timeline-a00109-2 6000ms linear 0ms 1 normal both' }} data-pc-id={"d9a47309-7bb2-4596-9028-85dc3b767366~" + item.id} data-motion-child="">
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '800', lineHeight: '46px', letterSpacing: '-1.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"7f09481b-4306-4334-82a8-0f893056fd83~" + item.id}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '640px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"b9ef6180-bea0-4ec9-ac29-be771d63f6c5~" + item.id}>
+        <div style={{ display: 'flex', flexDirection: 'row', gap: '64px', padding: '32px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"fe80d85b-18f2-4483-9a2b-f0c05f492a2b~" + item.id}>
+          <div style={{ width: '726px', height: '726px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start', animation: 'timeline-65fca2-1 6000ms linear 0ms 1 normal both' }} data-pc-id={"e61b37c3-608f-4c59-a9ad-df85fe3a83b0~" + item.id} data-motion-child="" />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', animation: 'timeline-65fca2-2 6000ms linear 0ms 1 normal both' }} data-pc-id={"047d3a30-5be6-4274-aea4-9c1105dbb051~" + item.id} data-motion-child="">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '800', lineHeight: '46px', letterSpacing: '-1.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"4a8f184e-09b6-4bd7-b2d8-b6ca499a5049~" + item.id}>
               {commerceWords(item, "title")}
             </p>
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"150167f2-ea9a-4749-bf03-5a75a3e50542~" + item.id}>
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"bdbbcb90-52d7-4ac2-ac31-c1167ccecbba~" + item.id}>
               {commerceWords(item, "price")}
             </p>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '112px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"ab5499de-ca61-4030-ac96-b098b410ad34~" + item.id}>
-              <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"f3f7a6f3-4479-4fa6-ab88-8b0e0337b25b~" + item.id}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '112px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"0e322e31-0fd0-47e5-b46c-1b3c5cab24b9~" + item.id}>
+              <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"ba524f94-4889-449a-88b4-dbd27aff5aaf~" + item.id}>
                 {commerceWords(item, "description")}
               </p>
             </div>
-            <form style={{ margin: '0', position: 'relative', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"3f1cb86b-9ee8-46a0-80e6-052ebe8c19e1~" + item.id} action={onAddToCart}>
-              <input style={{ display: 'block', border: '0', padding: '0', margin: '0', background: 'none', outline: 'none', font: 'inherit', color: 'var(--brand-text)', minWidth: '0', position: 'absolute', left: '0px', top: '0px', width: '1px', height: 'auto', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '400', lineHeight: 'normal', textAlign: 'left', maxWidth: '100%' }} type="hidden" name="merchandiseId" defaultValue={commerceWords(item, "variant_id")} aria-label="merchandiseId" data-pc-id={"3dfda3cb-d907-4f88-a4a5-a83ea181bb30~" + item.id} />
-              <button style={{ display: 'flex', border: '0', padding: '15px 26px 15px 26px', background: 'var(--brand-primary)', font: 'inherit', color: 'inherit', textAlign: 'inherit', cursor: 'pointer', position: 'relative', borderRadius: '4px', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} type="submit" data-pc-id={"7ae9ae5c-2305-4543-b2f1-c95a0b1bfe38~" + item.id}>
-                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onprimary)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"f89d1dc8-68d3-4972-832e-98ad6b936fd6~" + item.id}>
+            <form style={{ margin: '0', position: 'relative', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"7a9de968-28b0-47d8-9631-66ecad744553~" + item.id} action={onAddToCart}>
+              <input style={{ display: 'block', border: '0', padding: '0', margin: '0', background: 'none', outline: 'none', font: 'inherit', color: 'var(--brand-text)', minWidth: '0', position: 'absolute', left: '0px', top: '0px', width: '1px', height: 'auto', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '400', lineHeight: 'normal', textAlign: 'left', maxWidth: '100%' }} type="hidden" name="merchandiseId" defaultValue={commerceWords(item, "variant_id")} aria-label="merchandiseId" data-pc-id={"f6768548-bf0c-4153-b8d1-d5f6159f2f41~" + item.id} />
+              <button style={{ display: 'flex', border: '0', padding: '15px 26px 15px 26px', background: 'var(--brand-primary)', font: 'inherit', color: 'inherit', textAlign: 'inherit', cursor: 'pointer', position: 'relative', borderRadius: '4px', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} type="submit" data-pc-id={"90785368-d405-46c0-908b-5a7811e2b693~" + item.id}>
+                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onprimary)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"eb72089e-f905-44cf-ab54-1bb4530efc00~" + item.id}>
                   {'Add to cart'}
                 </p>
               </button>
             </form>
-            <div style={{ background: 'var(--brand-tint)', borderRadius: '4px', display: 'flex', flexDirection: 'column', gap: '8px', padding: '18px 18px 18px 18px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"9527dc4b-114a-4d70-9328-cc710f97938f~" + item.id}>
-              <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"d26a4c85-0f6b-40ba-9a99-03489fad195f~" + item.id}>
+            <div style={{ background: 'var(--brand-tint)', borderRadius: '4px', display: 'flex', flexDirection: 'column', gap: '8px', padding: '18px 18px 18px 18px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"87ec653c-7b72-4f5e-a0fc-6dc1b480c03b~" + item.id}>
+              <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"4e21ffac-0c38-42ce-94f6-4a0ce2166b2b~" + item.id}>
                 {'Free UK delivery over £75 · dispatched in 1–2 working days'}
               </p>
-              <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"35a8bd46-9b78-4276-92c7-2b5cbd6f0a2f~" + item.id}>
+              <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"035de9d4-fa22-4dc6-bd9d-edb042fe444b~" + item.id}>
                 {'Free returns within 60 days, and repairs for life'}
               </p>
             </div>
           </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"5df2e742-a585-4695-b772-4d4e981dcb5b~" + item.id}>
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"367c0637-b3fb-4478-829f-e58e6a2a5c3c~" + item.id}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"e521b618-7907-4f2c-9862-a8db22b53243~" + item.id}>
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"a4c4963e-9e4b-469b-939c-454ebaea4c9b~" + item.id}>
             {'You may also like'}
           </p>
-          <div style={{ flexShrink: '0', alignSelf: 'stretch', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gridAutoRows: 'minmax(100px, auto)', gap: '20px', padding: '0px 0px 0px 0px' }} data-pc-id={"c144ab37-0907-491d-ab63-dfce9547bbf7~" + item.id}>
+          <div style={{ flexShrink: '0', alignSelf: 'stretch', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gridAutoRows: 'minmax(100px, auto)', gap: '20px', padding: '0px 0px 0px 0px' }} data-pc-id={"53cb4205-bc9f-4336-8581-a10931dad7ae~" + item.id}>
             {(products ? products.map(v => commerceItem("commerce.product", v)) : SAMPLE_PRODUCTS).slice(0, 4).map(item => (
               <Fragment key={item.id}>
-                <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"50849473-9725-4f97-a5c9-4b108628c2a6~" + item.id}>
-                  <div style={{ height: '309px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"036f09af-578d-4977-b033-8454e96349cb~" + item.id} />
-                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"7f8c6900-6d8d-4378-8c6b-7b05e0fc0600~" + item.id}>
-                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"478b707e-c6e9-4381-bf3c-6488e9467994~" + item.id}>
+                <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"e80efb40-2786-4db0-b582-f2e7fd887f13~" + item.id}>
+                  <div style={{ height: '309px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"8051e05f-2918-4397-b1ac-9ab9c12f56bf~" + item.id} />
+                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"613f9bf8-673c-4e0e-8cee-1c735077d76b~" + item.id}>
+                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"38f6c309-13be-4a89-8022-4f63f48e7928~" + item.id}>
                       {commerceWords(item, "title")}
                     </p>
-                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"42c8416f-150f-49af-b52e-ed5a03cb5c22~" + item.id}>
+                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"9bbf229c-2474-4639-b350-aa8fd06341d1~" + item.id}>
                       {commerceWords(item, "price")}
                     </p>
                   </div>
@@ -502,19 +502,19 @@ export function ProductPage({ product, cart, products, menu, onAddToCart }: Prod
           </div>
         </div>
       </div>
-      <div style={{ background: 'var(--brand-tint)', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '48px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"c742d5e4-961f-4812-8f19-14c9096b7ddb~" + item.id}>
-        <div style={{ width: '420px', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id={"64c9db84-6e64-4439-86ad-d3b3039dcadc~" + item.id}>
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"3210c189-cd8e-4371-b434-605dae4f1b61~" + item.id}>
+      <div style={{ background: 'var(--brand-tint)', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '48px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"62725e9c-4dff-4532-8fdc-817f1b997856~" + item.id}>
+        <div style={{ width: '420px', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id={"cdf724ea-4771-4460-a2e6-938063cdf3f9~" + item.id}>
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"b66c3591-d460-466a-81e9-282ecc5b6f93~" + item.id}>
             {'Fieldwork'}
           </p>
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-tintmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"d93bba35-86f5-41af-80b1-4f2770d8c725~" + item.id}>
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-tintmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"728383d3-740e-4c3a-828d-4c4137f673f5~" + item.id}>
             {'© 2026 Fieldwork. Prices include VAT; delivery calculated at checkout.'}
           </p>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id={"6dcdf9ea-8410-4be2-86b9-458d3054c244~" + item.id}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id={"8acc731b-5bf2-4411-b0a2-5d50d337c452~" + item.id}>
           {(menu ? menu.map(v => commerceItem("commerce.menu", v)) : SAMPLE_MENU).map(item => (
             <Fragment key={item.id}>
-              <a style={{ display: 'block', color: 'var(--brand-ontint)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} href={commerceWords(item, "url")} data-pc-id={"8ae45ad2-02ea-41be-b85b-aaa62a3ab53e~" + item.id}>
+              <a style={{ display: 'block', color: 'var(--brand-ontint)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} href={commerceWords(item, "url")} data-pc-id={"4ece4525-0218-4ccf-898b-2613d877bfa5~" + item.id}>
                 {commerceWords(item, "title")}
               </a>
             </Fragment>

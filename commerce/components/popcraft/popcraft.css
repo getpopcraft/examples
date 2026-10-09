@@ -2,6 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 @property --data-cart-linescount { syntax: '<number>'; inherits: true; initial-value: 2; }
 @property --data-cartcount { syntax: '<number>'; inherits: true; initial-value: 1; }
+@property --data-categoriescount { syntax: '<number>'; inherits: true; initial-value: 5; }
 @property --data-menucount { syntax: '<number>'; inherits: true; initial-value: 4; }
 @property --data-productscount { syntax: '<number>'; inherits: true; initial-value: 8; }
 :root {
@@ -21,6 +22,7 @@
   --brand-tintmuted: #5C584F;
   --data-cart-linescount: 2;
   --data-cartcount: 1;
+  --data-categoriescount: 5;
   --data-menucount: 4;
   --data-productscount: 8;
 }

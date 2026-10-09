@@ -15,7 +15,7 @@ export interface HomePageProps {
 
 const SAMPLE_CART: CommerceItem[] = [
   {
-    "id": "099165ff-241c-46bb-bbde-301f5b3ed528",
+    "id": "d13b8d84-4170-4344-89b8-16d116885ffa",
     "values": {
       "count": 2,
       "subtotal": "£243.00",
@@ -28,7 +28,7 @@ const SAMPLE_CART: CommerceItem[] = [
 
 const SAMPLE_PRODUCTS: CommerceItem[] = [
   {
-    "id": "dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3",
+    "id": "56ed2e63-c3de-4050-a6d2-981fea395b59",
     "values": {
       "title": "Linen overshirt",
       "handle": "linen-overshirt",
@@ -44,7 +44,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca",
+    "id": "5e515d30-897c-4c19-b099-5870d6f5656e",
     "values": {
       "title": "Indigo chore jacket",
       "handle": "indigo-chore-jacket",
@@ -60,7 +60,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "e0a793a5-c70c-46b2-b6c0-d8cffb21639f",
+    "id": "07d57f26-345c-46ce-959a-7fb64f2a946e",
     "values": {
       "title": "Canvas work trouser",
       "handle": "canvas-work-trouser",
@@ -76,7 +76,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "b89d93a3-3f0c-4234-a3f5-0a3f1d59338f",
+    "id": "3ee6b33b-5941-497c-a77a-c5de61dddf0a",
     "values": {
       "title": "Fisherman jumper",
       "handle": "fisherman-jumper",
@@ -92,7 +92,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "4288312a-573f-42f4-986a-df670f4d7966",
+    "id": "086c362f-12f8-40d8-abb3-41c8a13286f7",
     "values": {
       "title": "Heavyweight tee",
       "handle": "heavyweight-tee",
@@ -108,7 +108,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "213cc024-6be3-4df4-ae01-e392398e14ee",
+    "id": "ac41a306-731d-47d1-888d-93a181a62cfb",
     "values": {
       "title": "Waxed field cap",
       "handle": "waxed-field-cap",
@@ -124,7 +124,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "93eee42e-e7d4-4db0-ac8c-ad4c69ee757d",
+    "id": "7df713f5-172b-4512-ad11-b50b46df4000",
     "values": {
       "title": "Market tote",
       "handle": "market-tote",
@@ -140,7 +140,7 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
     }
   },
   {
-    "id": "763365bf-657e-4c1f-82f3-8590123e9061",
+    "id": "6a05e218-627d-4049-b0e8-ace81dd7df1e",
     "values": {
       "title": "Workshop boot",
       "handle": "workshop-boot",
@@ -159,28 +159,28 @@ const SAMPLE_PRODUCTS: CommerceItem[] = [
 
 const SAMPLE_MENU: CommerceItem[] = [
   {
-    "id": "eb767dcd-e2b5-4558-b8c3-b37c23ad1bb3",
+    "id": "00aeaa2f-c054-4811-b0c2-dba3c919c58b",
     "values": {
       "title": "Shirts",
       "url": "/search/shirts"
     }
   },
   {
-    "id": "d71504b6-9b58-4b15-a631-f3860fec366f",
+    "id": "d5f1399a-3ea0-4e1e-bcce-cc226af40fb7",
     "values": {
       "title": "Jackets",
       "url": "/search/jackets"
     }
   },
   {
-    "id": "4ac3fc0d-151e-4437-a1e3-e4e90a7d9c59",
+    "id": "38815574-c673-4c2a-8794-958a4ea28edd",
     "values": {
       "title": "Knitwear",
       "url": "/search/knitwear"
     }
   },
   {
-    "id": "7bc78cf0-91df-472c-8580-a5dde7ca2160",
+    "id": "3f68da9d-9241-4472-8eff-7c5a69a6985f",
     "values": {
       "title": "Repairs",
       "url": "/repairs"
@@ -190,249 +190,335 @@ const SAMPLE_MENU: CommerceItem[] = [
 
 const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @media (max-width: 1024px) {
-  [data-pc-id="b38c689c-4574-4581-8825-9b31a8cb90a5"] {
-    min-height: max(3438px, 100dvh) !important;
+  [data-pc-id="31f3f78e-4fa6-479c-9547-cac8fafe96c1"] {
+    min-height: max(3898px, 100dvh) !important;
   }
-  [data-pc-id="6da316e3-2d85-4463-ae34-75737d2a60f9"] {
+  [data-pc-id="78590c2c-a2bb-44f6-aa6e-c9ea9d07b7e7"] {
     padding: 22px 40px 22px 40px !important;
   }
-  [data-pc-id="5a73a646-2113-4f13-a6a4-031e3ad51e61"] {
+  [data-pc-id="cbeab31d-09db-4593-ac4e-0e4a95425d8e"] {
     flex-direction: column !important;
     padding: 32px 40px 24px 40px !important;
   }
-  [data-pc-id="cc94fb42-5e87-40c8-8abc-22c409c75a36"] {
+  [data-pc-id="d6441c59-d277-44c9-9ca1-04dd8900b480"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="69e81743-82a0-4697-a57f-b8f03dc1139a"] {
+  [data-pc-id="df06466c-7342-4a3d-a410-5b43eb177380"] {
     font-size: 40px !important;
     line-height: 46px !important;
     letter-spacing: -1.2px !important;
   }
-  [data-pc-id="3266bebf-e204-449b-8f31-a91328f2099a"] {
+  [data-pc-id="a5ce40fa-4e11-476d-9e3e-442844db7ae1"] {
     width: revert !important;
     max-width: revert !important;
     height: 454px !important;
     align-self: stretch !important;
   }
-  [data-pc-id="2dba7158-bd1a-4724-a44e-e538e4b8f703"] {
+  [data-pc-id="5b67e0dd-45a3-44cb-8d68-a9b686624d70"] {
     padding: 56px 40px 24px 40px !important;
   }
-  [data-pc-id="30d11f55-cd22-4b02-a7fe-a629f214c1fc"] {
+  [data-pc-id="9b34e4b9-da21-4b93-887a-1b4329f7f264"] {
     grid-template-columns: 1fr 1fr !important;
   }
-  [data-pc-id="f47f15a9-dd36-4354-82ea-bada391d97d3~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="79bbafe8-90f3-4ff3-abdf-683310c0aee2~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     height: 332px !important;
   }
-  [data-pc-id="f47f15a9-dd36-4354-82ea-bada391d97d3~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="79bbafe8-90f3-4ff3-abdf-683310c0aee2~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     height: 332px !important;
   }
-  [data-pc-id="f47f15a9-dd36-4354-82ea-bada391d97d3~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="79bbafe8-90f3-4ff3-abdf-683310c0aee2~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     height: 332px !important;
   }
-  [data-pc-id="f92b830c-2731-43ab-a0bb-24d187dcffee"] {
+  [data-pc-id="02f47334-df4b-4162-9b4e-74938268de6c"] {
     flex-direction: column !important;
     padding: 56px 40px 56px 40px !important;
   }
-  [data-pc-id="988188c0-3339-476a-894d-f98c4bf1d044"] {
+  [data-pc-id="c983f3b4-980f-40a0-b982-4afdb4b8528e"] {
     width: revert !important;
     max-width: revert !important;
     height: 454px !important;
     align-self: stretch !important;
   }
-  [data-pc-id="ce6c067c-5c53-40e8-a4c3-d7231c6cf022"] {
+  [data-pc-id="9f72910c-78d3-4c5d-bdad-bf942ee24bb1"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="16164f01-845e-45d8-a556-09431fddc422"] {
+  [data-pc-id="baeb1a38-384a-40ec-be68-efd9724e13e1"] {
     padding: 56px 40px 24px 40px !important;
   }
-  [data-pc-id="9d4d6766-d992-48d3-af2e-f3dcb98eda43"] {
+  [data-pc-id="3a2e015b-08b8-496a-ba25-cbe6a9e432a0"] {
+    padding: 56px 40px 24px 40px !important;
+  }
+  [data-pc-id="9deee492-01ec-4082-89bd-5f8460585f45"] {
     grid-template-columns: 1fr 1fr !important;
     gap: 16px !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     height: 336px !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~4288312a-573f-42f4-986a-df670f4d7966"] {
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
     height: 336px !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~213cc024-6be3-4df4-ae01-e392398e14ee"] {
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~ac41a306-731d-47d1-888d-93a181a62cfb"] {
     height: 336px !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~93eee42e-e7d4-4db0-ac8c-ad4c69ee757d"] {
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~7df713f5-172b-4512-ad11-b50b46df4000"] {
     height: 336px !important;
   }
-  [data-pc-id="b81f8fb7-845c-4d1a-9845-bc605e7cc85f"] {
+  [data-pc-id="315a1257-62c4-47a0-b6af-5d312cca3b9c"] {
     justify-content: revert !important;
     flex-direction: column !important;
     padding: 48px 40px 64px 40px !important;
   }
-  [data-pc-id="9f9071c6-9a52-4dbc-9673-3e53764524bf"] {
+  [data-pc-id="c869e864-1425-4cfb-8995-db2bff6027a3"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="7d865b7b-76c6-4cb0-a2fb-71c32765b5f8"] {
+  [data-pc-id="ec40072e-df27-4d09-92ee-fa65b89eb6cc"] {
     justify-content: revert !important;
     flex-direction: column !important;
     padding: 56px 40px 56px 40px !important;
   }
-  [data-pc-id="b9e122ef-b7c7-4551-a046-be73efbed729"] {
+  [data-pc-id="994ab9d0-1fcc-48cf-b9f0-c4e840e05b35"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="5aedd3e2-2ef9-4764-a16b-60d5f3cc0586"] {
+  [data-pc-id="908baa30-9b07-40f1-9413-e6c06eadf812"] {
     align-self: stretch !important;
   }
 }
 @media (max-width: 640px) {
-  [data-pc-id="b38c689c-4574-4581-8825-9b31a8cb90a5"] {
-    min-height: max(2850px, 100dvh) !important;
+  [data-pc-id="31f3f78e-4fa6-479c-9547-cac8fafe96c1"] {
+    min-height: max(3336px, 100dvh) !important;
   }
-  [data-pc-id="6da316e3-2d85-4463-ae34-75737d2a60f9"] {
+  [data-pc-id="78590c2c-a2bb-44f6-aa6e-c9ea9d07b7e7"] {
     padding: 22px 20px 22px 20px !important;
   }
-  [data-pc-id="2829fbff-dbdd-406a-99cd-be055a305fde"] {
+  [data-pc-id="94d70a38-7796-42bb-997c-193827a88269"] {
     display: none !important;
   }
-  [data-pc-id="caae8fdc-699d-4a90-8084-342ac38f1bb0"] {
+  [data-pc-id="c444f5a4-087b-4e8a-9130-7ab0715588bc"] {
     display: none !important;
   }
-  [data-pc-id="8654bfab-a46a-4846-a056-c2a69595d67a"] {
+  [data-pc-id="ec5064dc-c951-4a1e-ac17-abe8f6a734b1"] {
     display: none !important;
   }
-  [data-pc-id="576e643d-4e7d-404d-84b1-ad2f9b468012"] {
+  [data-pc-id="7a224b8b-2633-459f-bfd8-f4e4fb4548ad"] {
     display: none !important;
   }
-  [data-pc-id="c2ff35bc-435e-4a34-a920-4d5a00baea6f"] {
+  [data-pc-id="756be76b-0eae-432e-81f2-81c03d487293"] {
     display: none !important;
   }
-  [data-pc-id="5a73a646-2113-4f13-a6a4-031e3ad51e61"] {
+  [data-pc-id="cbeab31d-09db-4593-ac4e-0e4a95425d8e"] {
     padding: 32px 20px 24px 20px !important;
   }
-  [data-pc-id="3266bebf-e204-449b-8f31-a91328f2099a"] {
+  [data-pc-id="a5ce40fa-4e11-476d-9e3e-442844db7ae1"] {
     height: 221px !important;
   }
-  [data-pc-id="2dba7158-bd1a-4724-a44e-e538e4b8f703"] {
+  [data-pc-id="5b67e0dd-45a3-44cb-8d68-a9b686624d70"] {
     padding: 56px 20px 24px 20px !important;
   }
-  [data-pc-id="30d11f55-cd22-4b02-a7fe-a629f214c1fc"] {
+  [data-pc-id="9b34e4b9-da21-4b93-887a-1b4329f7f264"] {
     grid-template-columns: 1fr !important;
     gap: 16px !important;
   }
-  [data-pc-id="f47f15a9-dd36-4354-82ea-bada391d97d3~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="79bbafe8-90f3-4ff3-abdf-683310c0aee2~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     height: 335px !important;
   }
-  [data-pc-id="51b2e591-1a7e-4f4b-9ae9-3283e9851a7a~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="42d79f40-6d9f-488b-a59b-6fddf171c9e3~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="52303d10-eef9-4eda-8123-96d1ba9257bc~dd8d0342-bf2a-4e4c-ace3-6394cb8c28c3"] {
+  [data-pc-id="fb877416-8021-4aac-bd71-8010843a44ac~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="f47f15a9-dd36-4354-82ea-bada391d97d3~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="79bbafe8-90f3-4ff3-abdf-683310c0aee2~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     height: 335px !important;
   }
-  [data-pc-id="51b2e591-1a7e-4f4b-9ae9-3283e9851a7a~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="42d79f40-6d9f-488b-a59b-6fddf171c9e3~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="52303d10-eef9-4eda-8123-96d1ba9257bc~c157b9a2-a6d9-48d2-bcfe-7a090e4d42ca"] {
+  [data-pc-id="fb877416-8021-4aac-bd71-8010843a44ac~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="f47f15a9-dd36-4354-82ea-bada391d97d3~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="79bbafe8-90f3-4ff3-abdf-683310c0aee2~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     height: 335px !important;
   }
-  [data-pc-id="51b2e591-1a7e-4f4b-9ae9-3283e9851a7a~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="42d79f40-6d9f-488b-a59b-6fddf171c9e3~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="52303d10-eef9-4eda-8123-96d1ba9257bc~e0a793a5-c70c-46b2-b6c0-d8cffb21639f"] {
+  [data-pc-id="fb877416-8021-4aac-bd71-8010843a44ac~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="f92b830c-2731-43ab-a0bb-24d187dcffee"] {
+  [data-pc-id="02f47334-df4b-4162-9b4e-74938268de6c"] {
     padding: 56px 20px 56px 20px !important;
   }
-  [data-pc-id="988188c0-3339-476a-894d-f98c4bf1d044"] {
+  [data-pc-id="c983f3b4-980f-40a0-b982-4afdb4b8528e"] {
     height: 221px !important;
   }
-  [data-pc-id="16164f01-845e-45d8-a556-09431fddc422"] {
+  [data-pc-id="baeb1a38-384a-40ec-be68-efd9724e13e1"] {
     padding: 56px 20px 24px 20px !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
-    height: 159px !important;
-  }
-  [data-pc-id="770cd980-c0e1-4738-bcc0-e77a7feff098~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="8c66829a-e71c-4da6-862f-1b79f88867d0~b89d93a3-3f0c-4234-a3f5-0a3f1d59338f"] {
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~4288312a-573f-42f4-986a-df670f4d7966"] {
-    height: 159px !important;
-  }
-  [data-pc-id="770cd980-c0e1-4738-bcc0-e77a7feff098~4288312a-573f-42f4-986a-df670f4d7966"] {
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="8c66829a-e71c-4da6-862f-1b79f88867d0~4288312a-573f-42f4-986a-df670f4d7966"] {
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~5e515d30-897c-4c19-b099-5870d6f5656e"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~213cc024-6be3-4df4-ae01-e392398e14ee"] {
-    height: 159px !important;
-  }
-  [data-pc-id="770cd980-c0e1-4738-bcc0-e77a7feff098~213cc024-6be3-4df4-ae01-e392398e14ee"] {
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="8c66829a-e71c-4da6-862f-1b79f88867d0~213cc024-6be3-4df4-ae01-e392398e14ee"] {
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="7167b021-ab2a-421f-8202-122291b266dd~93eee42e-e7d4-4db0-ac8c-ad4c69ee757d"] {
-    height: 159px !important;
-  }
-  [data-pc-id="770cd980-c0e1-4738-bcc0-e77a7feff098~93eee42e-e7d4-4db0-ac8c-ad4c69ee757d"] {
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="8c66829a-e71c-4da6-862f-1b79f88867d0~93eee42e-e7d4-4db0-ac8c-ad4c69ee757d"] {
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="b81f8fb7-845c-4d1a-9845-bc605e7cc85f"] {
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~7df713f5-172b-4512-ad11-b50b46df4000"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~7df713f5-172b-4512-ad11-b50b46df4000"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="271f0be0-5890-4fb8-be7b-96d1694cdb5b~6a05e218-627d-4049-b0e8-ace81dd7df1e"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="8ca81874-189f-4199-8619-3da1babd202d~6a05e218-627d-4049-b0e8-ace81dd7df1e"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="3a2e015b-08b8-496a-ba25-cbe6a9e432a0"] {
+    padding: 56px 20px 24px 20px !important;
+  }
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+    height: 159px !important;
+  }
+  [data-pc-id="4b6f8b55-01ed-4ffc-b551-b9fcf9b146d2~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="a491e0ce-81ac-43b1-ab2b-f7f0fcb3f369~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+    height: 159px !important;
+  }
+  [data-pc-id="4b6f8b55-01ed-4ffc-b551-b9fcf9b146d2~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="a491e0ce-81ac-43b1-ab2b-f7f0fcb3f369~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+    height: 159px !important;
+  }
+  [data-pc-id="4b6f8b55-01ed-4ffc-b551-b9fcf9b146d2~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="a491e0ce-81ac-43b1-ab2b-f7f0fcb3f369~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="a389db05-9cb2-40cc-9108-435a890e7324~7df713f5-172b-4512-ad11-b50b46df4000"] {
+    height: 159px !important;
+  }
+  [data-pc-id="4b6f8b55-01ed-4ffc-b551-b9fcf9b146d2~7df713f5-172b-4512-ad11-b50b46df4000"] {
+    flex-direction: column !important;
+    gap: 2px !important;
+  }
+  [data-pc-id="a491e0ce-81ac-43b1-ab2b-f7f0fcb3f369~7df713f5-172b-4512-ad11-b50b46df4000"] {
+    flex: revert !important;
+    min-width: revert !important;
+    flex-shrink: 0 !important;
+    align-self: stretch !important;
+  }
+  [data-pc-id="315a1257-62c4-47a0-b6af-5d312cca3b9c"] {
     padding: 48px 20px 64px 20px !important;
   }
-  [data-pc-id="7d865b7b-76c6-4cb0-a2fb-71c32765b5f8"] {
+  [data-pc-id="ec40072e-df27-4d09-92ee-fa65b89eb6cc"] {
     padding: 56px 20px 56px 20px !important;
   }
 }
-@keyframes timeline-cb90a5-0 {
+@keyframes timeline-fe96c1-0 {
   0% { opacity: 0; }
   0.556% { opacity: 0.187; }
   1.111% { opacity: 0.349; }
@@ -448,7 +534,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   7.222% { opacity: 0.998; }
   100% { opacity: 1; }
 }
-@keyframes timeline-cb90a5-1 {
+@keyframes timeline-fe96c1-1 {
   0% { transform: translate(0px, 24px); opacity: 0; }
   2.222% { transform: translate(0px, 24px); opacity: 0; }
   2.778% { transform: translate(0px, 19.8px); opacity: 0.175; }
@@ -466,7 +552,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   12.778% { transform: none; opacity: 1; }
   100% { transform: none; opacity: 1; }
 }
-@keyframes timeline-cb90a5-2 {
+@keyframes timeline-fe96c1-2 {
   0% { transform: translate(0px, 102px); opacity: 0; }
   5% { transform: translate(0px, 102px); opacity: 0; animation-timing-function: step-end; }
   5.556% { transform: translate(0px, 73.33px); opacity: 0.281; }
@@ -484,7 +570,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   16.667% { transform: none; opacity: 1; }
   100% { transform: none; opacity: 1; }
 }
-@keyframes timeline-cb90a5-3 {
+@keyframes timeline-fe96c1-3 {
   0% { transform: translate(0px, 40.5px); opacity: 0; }
   7.222% { transform: translate(0px, 40.5px); opacity: 0; }
   7.778% { transform: translate(0px, 33.41px); opacity: 0.175; }
@@ -502,7 +588,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   17.778% { transform: none; opacity: 1; }
   100% { transform: none; opacity: 1; }
 }
-@keyframes timeline-cb90a5-4 {
+@keyframes timeline-fe96c1-4 {
   0% { transform: translate(0px, 27px); opacity: 0; }
   10% { transform: translate(0px, 27px); opacity: 0; animation-timing-function: step-end; }
   10.556% { transform: translate(0px, 18.37px); opacity: 0.32; }
@@ -538,7 +624,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   66.667% { transform: none; opacity: 1; }
   100% { transform: none; opacity: 1; }
 }
-@keyframes timeline-cb90a5-5 {
+@keyframes timeline-fe96c1-5 {
   0% { opacity: 0; }
   3.889% { opacity: 0; }
   4.444% { opacity: 0.055; }
@@ -558,7 +644,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   18.333% { opacity: 1; }
   100% { opacity: 1; }
 }
-@keyframes timeline-cb90a5-6 {
+@keyframes timeline-fe96c1-6 {
   0% { transform: translate(0px, 298px); opacity: 0; }
   15% { transform: translate(0px, 298px); opacity: 0; animation-timing-function: step-end; }
   15.556% { transform: translate(0px, 214.22px); opacity: 0.281; }
@@ -575,38 +661,77 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   26.111% { transform: translate(0px, 0.4px); opacity: 0.999; animation-timing-function: step-end; }
   26.667% { transform: none; opacity: 1; }
   100% { transform: none; opacity: 1; }
+}
+@keyframes timeline-fe96c1-7 {
+  0% { transform: translate(-180px, 0px); }
+  2.222% { transform: translate(-178.25px, 0px); }
+  5% { transform: translate(-171.19px, 0px); }
+  7.778% { transform: translate(-158.93px, 0px); }
+  10.556% { transform: translate(-141.84px, 0px); }
+  13.333% { transform: translate(-120.44px, 0px); }
+  16.667% { transform: translate(-90px, 0px); }
+  20% { transform: translate(-55.62px, 0px); }
+  24.444% { transform: translate(-6.28px, 0px); }
+  25% { transform: none; }
+  25.556% { transform: translate(6.28px, 0px); }
+  30% { transform: translate(55.62px, 0px); }
+  33.333% { transform: translate(90px, 0px); }
+  36.667% { transform: translate(120.44px, 0px); }
+  39.444% { transform: translate(141.84px, 0px); }
+  42.222% { transform: translate(158.93px, 0px); }
+  45% { transform: translate(171.19px, 0px); }
+  47.778% { transform: translate(178.25px, 0px); }
+  50% { transform: translate(180px, 0px); }
+  52.222% { transform: translate(178.25px, 0px); }
+  55% { transform: translate(171.19px, 0px); }
+  57.778% { transform: translate(158.93px, 0px); }
+  60.556% { transform: translate(141.84px, 0px); }
+  63.333% { transform: translate(120.44px, 0px); }
+  66.667% { transform: translate(90px, 0px); }
+  70% { transform: translate(55.62px, 0px); }
+  74.444% { transform: translate(6.28px, 0px); }
+  75% { transform: none; }
+  75.556% { transform: translate(-6.28px, 0px); }
+  80% { transform: translate(-55.62px, 0px); }
+  83.333% { transform: translate(-90px, 0px); }
+  86.667% { transform: translate(-120.44px, 0px); }
+  89.444% { transform: translate(-141.84px, 0px); }
+  92.222% { transform: translate(-158.93px, 0px); }
+  95% { transform: translate(-171.19px, 0px); }
+  97.778% { transform: translate(-178.25px, 0px); }
+  100% { transform: translate(-180px, 0px); }
 }`
 export function HomePage({ cart, products, menu }: HomePageProps = {}) {
   return (
-    <div style={{ position: 'relative', width: '100%', background: 'var(--brand-paper)', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', minHeight: 'max(2674px, 100dvh)' }} data-pc-id="b38c689c-4574-4581-8825-9b31a8cb90a5">
+    <div style={{ position: 'relative', width: '100%', background: 'var(--brand-paper)', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', minHeight: 'max(3134px, 100dvh)' }} data-pc-id="31f3f78e-4fa6-479c-9547-cac8fafe96c1">
       <style>{KEYFRAMES}</style>
-      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '0px', padding: '22px 72px 22px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-cb90a5-0 6000ms linear 0ms 1 normal both' }} data-pc-id="6da316e3-2d85-4463-ae34-75737d2a60f9" data-motion-child="">
-        <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/" data-pc-id="87192525-686c-4bed-9544-171d678f18b3">
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '0px', padding: '22px 72px 22px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-fe96c1-0 6000ms linear 0ms infinite normal both' }} data-pc-id="78590c2c-a2bb-44f6-aa6e-c9ea9d07b7e7" data-motion-child="">
+        <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/" data-pc-id="87aeebd5-162d-4939-a78a-41678bc9cd31">
           {'Fieldwork'}
         </a>
-        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '28px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="2829fbff-dbdd-406a-99cd-be055a305fde">
-          <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="caae8fdc-699d-4a90-8084-342ac38f1bb0">
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '28px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="94d70a38-7796-42bb-997c-193827a88269">
+          <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="c444f5a4-087b-4e8a-9130-7ab0715588bc">
             {'Shop all'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="8654bfab-a46a-4846-a056-c2a69595d67a">
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="ec5064dc-c951-4a1e-ac17-abe8f6a734b1">
             {'Shirts'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="576e643d-4e7d-404d-84b1-ad2f9b468012">
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="7a224b8b-2633-459f-bfd8-f4e4fb4548ad">
             {'Jackets'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="c2ff35bc-435e-4a34-a920-4d5a00baea6f">
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="756be76b-0eae-432e-81f2-81c03d487293">
             {'Knitwear'}
           </a>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="e118fcdc-de75-4fce-82c8-516516743ea8">
+        <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="4907f057-9199-4c58-bccd-f90f28eed3ce">
           {(cart ? [commerceItem("commerce.cart", cart)] : SAMPLE_CART).slice(0, 1).map(item => (
             <Fragment key={item.id}>
-              <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', borderRadius: '999px', border: '1.5px solid var(--brand-text)', flexDirection: 'row', alignItems: 'center', gap: '8px', padding: '6px 6px 6px 16px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start' }} href="/cart" data-pc-id={"7ad78fd1-a8ff-4856-b047-196c7a1a216f~" + item.id}>
-                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"17c88739-60c7-4f57-be57-240a3eae14f3~" + item.id}>
+              <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', borderRadius: '999px', border: '1.5px solid var(--brand-text)', flexDirection: 'row', alignItems: 'center', gap: '8px', padding: '6px 6px 6px 16px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start' }} href="/cart" data-pc-id={"d4c7bc1e-936e-4ec7-8a53-e00765c532c0~" + item.id}>
+                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"59001da4-a7a4-481f-b931-f58412d8d024~" + item.id}>
                   {'Cart'}
                 </p>
-                <div style={{ width: '26px', height: '26px', background: 'var(--brand-primary)', borderRadius: '13px', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"a7eaef72-f455-43b3-9b29-3c9261651d2b~" + item.id}>
-                  <p style={{ width: '26px', margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'center', color: 'var(--brand-onprimary)', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"3ab64060-b2da-4cc4-ab81-3be610b28a03~" + item.id}>
+                <div style={{ width: '26px', height: '26px', background: 'var(--brand-primary)', borderRadius: '13px', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"3f1860af-731e-441c-8dd5-1c396e064e39~" + item.id}>
+                  <p style={{ width: '26px', margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'center', color: 'var(--brand-onprimary)', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"08118dd2-1511-4a87-8967-3270c64001a0~" + item.id}>
                     {commerceWords(item, "count")}
                   </p>
                 </div>
@@ -615,40 +740,40 @@ export function HomePage({ cart, products, menu }: HomePageProps = {}) {
           ))}
         </div>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '640px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="8ff2f401-4a76-4e32-9744-47a9dfd3ce07">
-        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '64px', padding: '32px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="5a73a646-2113-4f13-a6a4-031e3ad51e61">
-          <div style={{ width: '540px', display: 'flex', flexDirection: 'column', gap: '22px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id="cc94fb42-5e87-40c8-8abc-22c409c75a36">
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%', animation: 'timeline-cb90a5-1 6000ms linear 0ms 1 normal both' }} data-pc-id="6d0aac10-5e6d-436e-aa1f-3c9190c44e9b" data-motion-child="">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '640px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="4c11fa85-a01f-4826-bf00-8068ccc85d58">
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '64px', padding: '32px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="cbeab31d-09db-4593-ac4e-0e4a95425d8e">
+          <div style={{ width: '540px', display: 'flex', flexDirection: 'column', gap: '22px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id="d6441c59-d277-44c9-9ca1-04dd8900b480">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%', animation: 'timeline-fe96c1-1 6000ms linear 0ms infinite normal both' }} data-pc-id="a26e350e-11e7-441b-ac4c-e4a99357a9f4" data-motion-child="">
               {'Autumn workwear · made in Britain'}
             </p>
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '64px', fontWeight: '800', lineHeight: '68px', letterSpacing: '-2.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%', animation: 'timeline-cb90a5-2 6000ms linear 0ms 1 normal both' }} data-pc-id="69e81743-82a0-4697-a57f-b8f03dc1139a" data-motion-child="">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '64px', fontWeight: '800', lineHeight: '68px', letterSpacing: '-2.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%', animation: 'timeline-fe96c1-2 6000ms linear 0ms infinite normal both' }} data-pc-id="df06466c-7342-4a3d-a410-5b43eb177380" data-motion-child="">
               {'Clothes cut for work, worn for years.'}
             </p>
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%', animation: 'timeline-cb90a5-3 6000ms linear 0ms 1 normal both' }} data-pc-id="e17689f1-1290-4508-bbe9-925daa861031" data-motion-child="">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%', animation: 'timeline-fe96c1-3 6000ms linear 0ms infinite normal both' }} data-pc-id="f29fa37c-944e-412e-bc64-9b4922962e92" data-motion-child="">
               {'Linen, canvas and wool from mills we visit, sewn in small runs in Leicester and Northampton — and mended free for as long as you own them.'}
             </p>
-            <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', height: '54px', background: 'var(--brand-primary)', borderRadius: '4px', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '15px 26px 15px 26px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', animation: 'timeline-cb90a5-4 6000ms linear 0ms 1 normal both' }} href="/search" data-pc-id="0665b816-8e14-4f10-b163-bab899320fa0" data-motion-child="">
-              <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onprimary)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id="0665b816-8e14-4f10-b163-bab899320fa0::de03c0b8-5b29-4732-8f67-9e913878635c">
+            <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', height: '54px', background: 'var(--brand-primary)', borderRadius: '4px', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '15px 26px 15px 26px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', animation: 'timeline-fe96c1-4 6000ms linear 0ms infinite normal both' }} href="/search" data-pc-id="41f286b3-5856-4ab3-b364-8b5cc0ad66de" data-motion-child="">
+              <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onprimary)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id="41f286b3-5856-4ab3-b364-8b5cc0ad66de::e1dba261-45c9-4cde-abe8-2513adf4d7ef">
                 {'Shop the season'}
               </p>
             </a>
           </div>
-          <div style={{ width: '692px', height: '498px', background: 'url(\'/popcraft/media/49dedd0e57d2f2b17b0819e64d62033a.jpg\') center / cover no-repeat', borderRadius: '4px', maxWidth: '100%', flexShrink: '0', animation: 'timeline-cb90a5-5 6000ms linear 0ms 1 normal both' }} data-pc-id="3266bebf-e204-449b-8f31-a91328f2099a" data-motion-child="" />
+          <div style={{ width: '692px', height: '498px', background: 'url(\'/popcraft/media/49dedd0e57d2f2b17b0819e64d62033a.jpg\') center / cover no-repeat', borderRadius: '4px', maxWidth: '100%', flexShrink: '0', animation: 'timeline-fe96c1-5 6000ms linear 0ms infinite normal both' }} data-pc-id="a5ce40fa-4e11-476d-9e3e-442844db7ae1" data-motion-child="" />
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-cb90a5-6 6000ms linear 0ms 1 normal both' }} data-pc-id="2dba7158-bd1a-4724-a44e-e538e4b8f703" data-motion-child="">
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="bac1a65d-4c1b-402b-b032-dc1a95ade75c">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-fe96c1-6 6000ms linear 0ms infinite normal both' }} data-pc-id="5b67e0dd-45a3-44cb-8d68-a9b686624d70" data-motion-child="">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="83a4c555-4816-4d5f-b573-180f4aec7534">
             {'Featured this week'}
           </p>
-          <div style={{ flexShrink: '0', alignSelf: 'stretch', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridAutoRows: 'minmax(100px, auto)', gap: '24px', padding: '0px 0px 0px 0px' }} data-pc-id="30d11f55-cd22-4b02-a7fe-a629f214c1fc">
+          <div style={{ flexShrink: '0', alignSelf: 'stretch', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridAutoRows: 'minmax(100px, auto)', gap: '24px', padding: '0px 0px 0px 0px' }} data-pc-id="9b34e4b9-da21-4b93-887a-1b4329f7f264">
             {(products ? products.map(v => commerceItem("commerce.product", v)) : SAMPLE_PRODUCTS).slice(0, 3).map(item => (
               <Fragment key={item.id}>
-                <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"6461b44e-3b90-4ce3-8385-7d14e230eb21~" + item.id}>
-                  <div style={{ height: '416px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"f47f15a9-dd36-4354-82ea-bada391d97d3~" + item.id} />
-                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"51b2e591-1a7e-4f4b-9ae9-3283e9851a7a~" + item.id}>
-                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"52303d10-eef9-4eda-8123-96d1ba9257bc~" + item.id}>
+                <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"ebedcc9d-58ce-402c-af59-5e9f8483bdec~" + item.id}>
+                  <div style={{ height: '416px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"79bbafe8-90f3-4ff3-abdf-683310c0aee2~" + item.id} />
+                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"42d79f40-6d9f-488b-a59b-6fddf171c9e3~" + item.id}>
+                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"fb877416-8021-4aac-bd71-8010843a44ac~" + item.id}>
                       {commerceWords(item, "title")}
                     </p>
-                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"30e54232-ea0c-469f-8194-278f31ef66bb~" + item.id}>
+                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"338da458-d09b-4498-b886-ce2d46216ce0~" + item.id}>
                       {commerceWords(item, "price")}
                     </p>
                   </div>
@@ -657,31 +782,55 @@ export function HomePage({ cart, products, menu }: HomePageProps = {}) {
             ))}
           </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '64px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="f92b830c-2731-43ab-a0bb-24d187dcffee">
-          <div style={{ width: '648px', height: '441px', background: 'url(\'/popcraft/media/2b1c632a915848e9c42e1e7b03cf8946.jpg\') center / cover no-repeat', borderRadius: '4px', maxWidth: '100%', flexShrink: '0' }} data-pc-id="988188c0-3339-476a-894d-f98c4bf1d044" />
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0' }} data-pc-id="ce6c067c-5c53-40e8-a4c3-d7231c6cf022">
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '800', lineHeight: '46px', letterSpacing: '-1.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="97472695-c946-4369-9c42-c2bc6d9a8577">
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '64px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="02f47334-df4b-4162-9b4e-74938268de6c">
+          <div style={{ width: '648px', height: '441px', background: 'url(\'/popcraft/media/2b1c632a915848e9c42e1e7b03cf8946.jpg\') center / cover no-repeat', borderRadius: '4px', maxWidth: '100%', flexShrink: '0' }} data-pc-id="c983f3b4-980f-40a0-b982-4afdb4b8528e" />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0' }} data-pc-id="9f72910c-78d3-4c5d-bdad-bf942ee24bb1">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '800', lineHeight: '46px', letterSpacing: '-1.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="425a645a-be86-46b5-b746-312f8aaf82e5">
               {'Mended, not replaced'}
             </p>
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="ad5047c3-0e08-4182-ac2b-6a2e8982a9bf">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="09e67100-ac4d-41f3-9d66-2e93dfd503d0">
               {'Every Fieldwork piece comes with free repairs for life. Send it back with a note and our workshop will patch, resole or re-wax it, then post it home with the bill marked nil.'}
             </p>
           </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="16164f01-845e-45d8-a556-09431fddc422">
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="d0522021-bc08-40ba-8bcf-25ac56c29caa">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="baeb1a38-384a-40ec-be68-efd9724e13e1">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="816f85f5-051d-42e2-b794-f1aede1f02b0">
+            {'The whole workshop'}
+          </p>
+          <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="964c1b50-3513-4155-bc29-49fa66f7d069">
+            <div style={{ display: 'flex', flexDirection: 'row', gap: '20px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start', animation: 'timeline-fe96c1-7 6000ms linear 0ms infinite normal both' }} data-pc-id="541efc67-5444-464a-9e54-96d0833bbc04" data-motion-child="">
+              {(products ? products.map(v => commerceItem("commerce.product", v)) : SAMPLE_PRODUCTS).map(item => (
+                <Fragment key={item.id}>
+                  <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', width: '280px', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"13dace4e-2f78-40e4-8fe5-fdbb266fc489~" + item.id}>
+                    <div style={{ height: '280px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"cd8f214f-897b-45a6-99d2-694d08a06673~" + item.id} />
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"271f0be0-5890-4fb8-be7b-96d1694cdb5b~" + item.id}>
+                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"8ca81874-189f-4199-8619-3da1babd202d~" + item.id}>
+                        {commerceWords(item, "title")}
+                      </p>
+                      <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"9ec6be62-3a20-4a9c-8020-c90f58656196~" + item.id}>
+                        {commerceWords(item, "price")}
+                      </p>
+                    </div>
+                  </a>
+                </Fragment>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="3a2e015b-08b8-496a-ba25-cbe6a9e432a0">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="dccb1ed1-a947-437b-b6f1-f763f7218081">
             {'New in'}
           </p>
-          <div style={{ flexShrink: '0', alignSelf: 'stretch', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gridAutoRows: 'minmax(100px, auto)', gap: '20px', padding: '0px 0px 0px 0px' }} data-pc-id="9d4d6766-d992-48d3-af2e-f3dcb98eda43">
+          <div style={{ flexShrink: '0', alignSelf: 'stretch', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gridAutoRows: 'minmax(100px, auto)', gap: '20px', padding: '0px 0px 0px 0px' }} data-pc-id="9deee492-01ec-4082-89bd-5f8460585f45">
             {(products ? products.map(v => commerceItem("commerce.product", v)) : SAMPLE_PRODUCTS).slice(3, 7).map(item => (
               <Fragment key={item.id}>
-                <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"b6ea184f-8132-46b3-9434-fc731a04cf4c~" + item.id}>
-                  <div style={{ height: '309px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"7167b021-ab2a-421f-8202-122291b266dd~" + item.id} />
-                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"770cd980-c0e1-4738-bcc0-e77a7feff098~" + item.id}>
-                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"8c66829a-e71c-4da6-862f-1b79f88867d0~" + item.id}>
+                <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', flexDirection: 'column', gap: '14px', padding: '0px 0px 0px 0px', cursor: 'pointer' }} href={"/product/" + commerceWords(item, "handle")} data-pc-id={"bea52de6-8b99-496c-8e05-9fd78fcd9449~" + item.id}>
+                  <div style={{ height: '309px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"a389db05-9cb2-40cc-9108-435a890e7324~" + item.id} />
+                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"4b6f8b55-01ed-4ffc-b551-b9fcf9b146d2~" + item.id}>
+                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"a491e0ce-81ac-43b1-ab2b-f7f0fcb3f369~" + item.id}>
                       {commerceWords(item, "title")}
                     </p>
-                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"6b71f587-9e94-4809-a50a-1c6f84acfc6f~" + item.id}>
+                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"ae3b5ad3-e8de-4baa-b808-69297cb0b7e4~" + item.id}>
                       {commerceWords(item, "price")}
                     </p>
                   </div>
@@ -690,35 +839,35 @@ export function HomePage({ cart, products, menu }: HomePageProps = {}) {
             ))}
           </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '32px', padding: '48px 72px 64px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="b81f8fb7-845c-4d1a-9845-bc605e7cc85f">
-          <div style={{ width: '640px', display: 'flex', flexDirection: 'column', gap: '8px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id="9f9071c6-9a52-4dbc-9673-3e53764524bf">
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="cac71872-1008-4a0e-9741-2f512fc14d17">
+        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '32px', padding: '48px 72px 64px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="315a1257-62c4-47a0-b6af-5d312cca3b9c">
+          <div style={{ width: '640px', display: 'flex', flexDirection: 'column', gap: '8px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id="c869e864-1425-4cfb-8995-db2bff6027a3">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '28px', fontWeight: '700', lineHeight: '34px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="c7d7647e-4064-4f6c-bc18-03c20bd1ad8e">
               {'Letters from the workshop'}
             </p>
-            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="0dfee964-3ab7-454c-b7e7-5c37f7737448">
+            <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '400', lineHeight: '27px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="b9d31208-78e4-49e8-9f5b-e7af23d35a37">
               {'One email a month: new runs before they sell out, and what the repairs bench is mending.'}
             </p>
           </div>
-          <div style={{ height: '54px', borderRadius: '4px', border: '1.5px solid var(--brand-text)', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '15px 26px 15px 26px', boxSizing: 'border-box', flexShrink: '0' }} data-pc-id="942f05e2-7ee2-4961-a285-5e38c6ba1f6b">
-            <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id="942f05e2-7ee2-4961-a285-5e38c6ba1f6b::0224e633-fc2e-4380-860f-51a069103a8c">
+          <div style={{ height: '54px', borderRadius: '4px', border: '1.5px solid var(--brand-text)', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '15px 26px 15px 26px', boxSizing: 'border-box', flexShrink: '0' }} data-pc-id="ecf004f0-0fe7-4bad-ba35-90b86e3d0c15">
+            <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id="ecf004f0-0fe7-4bad-ba35-90b86e3d0c15::6dc3434d-5640-4d25-ace9-82377f438e02">
               {'Join the list'}
             </p>
           </div>
         </div>
       </div>
-      <div style={{ background: 'var(--brand-tint)', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '48px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="7d865b7b-76c6-4cb0-a2fb-71c32765b5f8">
-        <div style={{ width: '420px', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="b9e122ef-b7c7-4551-a046-be73efbed729">
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="775f54a3-9ff7-47b7-9dd8-457af0ad1c6f">
+      <div style={{ background: 'var(--brand-tint)', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '48px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="ec40072e-df27-4d09-92ee-fa65b89eb6cc">
+        <div style={{ width: '420px', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="994ab9d0-1fcc-48cf-b9f0-c4e840e05b35">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="71f53222-3b1e-41f5-bfae-36418fbc83c6">
             {'Fieldwork'}
           </p>
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-tintmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="dd160545-5244-4256-a0ab-c38a8058f572">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-tintmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="ec432324-8d92-4808-b079-d9fd28418453">
             {'© 2026 Fieldwork. Prices include VAT; delivery calculated at checkout.'}
           </p>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="5aedd3e2-2ef9-4764-a16b-60d5f3cc0586">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="908baa30-9b07-40f1-9413-e6c06eadf812">
           {(menu ? menu.map(v => commerceItem("commerce.menu", v)) : SAMPLE_MENU).map(item => (
             <Fragment key={item.id}>
-              <a style={{ display: 'block', color: 'var(--brand-ontint)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} href={commerceWords(item, "url")} data-pc-id={"44cbc9aa-8be5-4cb2-91fd-b1c73563ba29~" + item.id}>
+              <a style={{ display: 'block', color: 'var(--brand-ontint)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} href={commerceWords(item, "url")} data-pc-id={"8aef4cf2-fb23-4fff-850b-83b5c606280f~" + item.id}>
                 {commerceWords(item, "title")}
               </a>
             </Fragment>

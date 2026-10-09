@@ -19,7 +19,7 @@ export interface CartPageProps {
 
 const SAMPLE_CART: CommerceItem[] = [
   {
-    "id": "099165ff-241c-46bb-bbde-301f5b3ed528",
+    "id": "d13b8d84-4170-4344-89b8-16d116885ffa",
     "values": {
       "count": 2,
       "subtotal": "£243.00",
@@ -32,7 +32,7 @@ const SAMPLE_CART: CommerceItem[] = [
 
 const SAMPLE_CARTLINES: CommerceItem[] = [
   {
-    "id": "58ef6796-6a8d-482b-98ea-a21cdd0586ce",
+    "id": "21bf5824-f6dd-4199-9575-bf9c20b78794",
     "values": {
       "title": "Linen overshirt",
       "variant": "M",
@@ -44,7 +44,7 @@ const SAMPLE_CARTLINES: CommerceItem[] = [
     }
   },
   {
-    "id": "cdf0bbd2-0b45-474d-9fbc-ee76f66b190a",
+    "id": "fe16b8cf-df83-443b-a5b4-38a59dcd9396",
     "values": {
       "title": "Indigo chore jacket",
       "variant": "",
@@ -59,28 +59,28 @@ const SAMPLE_CARTLINES: CommerceItem[] = [
 
 const SAMPLE_MENU: CommerceItem[] = [
   {
-    "id": "eb767dcd-e2b5-4558-b8c3-b37c23ad1bb3",
+    "id": "00aeaa2f-c054-4811-b0c2-dba3c919c58b",
     "values": {
       "title": "Shirts",
       "url": "/search/shirts"
     }
   },
   {
-    "id": "d71504b6-9b58-4b15-a631-f3860fec366f",
+    "id": "d5f1399a-3ea0-4e1e-bcce-cc226af40fb7",
     "values": {
       "title": "Jackets",
       "url": "/search/jackets"
     }
   },
   {
-    "id": "4ac3fc0d-151e-4437-a1e3-e4e90a7d9c59",
+    "id": "38815574-c673-4c2a-8794-958a4ea28edd",
     "values": {
       "title": "Knitwear",
       "url": "/search/knitwear"
     }
   },
   {
-    "id": "7bc78cf0-91df-472c-8580-a5dde7ca2160",
+    "id": "3f68da9d-9241-4472-8eff-7c5a69a6985f",
     "values": {
       "title": "Repairs",
       "url": "/repairs"
@@ -90,82 +90,82 @@ const SAMPLE_MENU: CommerceItem[] = [
 
 const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 @media (max-width: 1024px) {
-  [data-pc-id="aa129fcd-01fe-4a12-bb29-3e13c651a4c2"] {
+  [data-pc-id="d5e8cccd-0729-4e2c-8101-8e7f1449088f"] {
     padding: 22px 40px 22px 40px !important;
   }
-  [data-pc-id="88a089fc-ae2f-42ac-92e6-dda3498bd541"] {
+  [data-pc-id="8d3e4a62-074d-4291-9d25-b05c2a7b0487"] {
     padding: 56px 40px 24px 40px !important;
   }
-  [data-pc-id="76be76a2-8870-4703-a4d3-435e19b52a5d"] {
+  [data-pc-id="d648124e-3a65-4da2-988e-d44875bc0ae6"] {
     flex-direction: column !important;
     padding: 0px 40px 48px 40px !important;
   }
-  [data-pc-id="d2c9e921-842f-408b-8d45-36f0e64bb75c"] {
+  [data-pc-id="9f4ec6db-d040-4167-834e-fc090737f127"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4398ceb0-7ce0-4bc5-a367-175e3d873e2a"] {
+  [data-pc-id="721db5c0-0958-4d91-bce6-6a8fa58043a3"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="befb2454-57d3-4ca6-9aad-fa9a937dfb91"] {
+  [data-pc-id="204b8703-f3a3-4f27-85f9-54594c6e7bba"] {
     justify-content: revert !important;
     flex-direction: column !important;
     padding: 56px 40px 56px 40px !important;
   }
-  [data-pc-id="1bd84ad4-c174-4385-b5d8-194405476678"] {
+  [data-pc-id="ff9b206e-06d9-41a5-82f5-c9a8d1bf5446"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="e7fa26bf-15c6-4607-be5b-e9f37439f128"] {
+  [data-pc-id="da87a786-b9a4-4f19-b82d-867441aaa349"] {
     align-self: stretch !important;
   }
 }
 @media (max-width: 640px) {
-  [data-pc-id="2927bac6-d9b9-49ac-abc4-248dc370782b"] {
+  [data-pc-id="9792cdbc-5f55-4c94-a43c-9e18803c3136"] {
     min-height: max(982px, 100dvh) !important;
   }
-  [data-pc-id="aa129fcd-01fe-4a12-bb29-3e13c651a4c2"] {
+  [data-pc-id="d5e8cccd-0729-4e2c-8101-8e7f1449088f"] {
     padding: 22px 20px 22px 20px !important;
   }
-  [data-pc-id="ed6864c2-add8-4bef-a9db-cbcd36e468b5"] {
+  [data-pc-id="6f38234a-7653-48f4-a461-c9fff8a71eda"] {
     display: none !important;
   }
-  [data-pc-id="638fa79d-ab86-4616-9dfd-28d1f57b8b96"] {
+  [data-pc-id="7465e045-9d18-4a71-b2b6-d68e29d55865"] {
     display: none !important;
   }
-  [data-pc-id="8e4f8d71-a787-484b-bb08-ab64f9656155"] {
+  [data-pc-id="074b191f-e67c-49b9-b5a5-89542442ca73"] {
     display: none !important;
   }
-  [data-pc-id="5a2539af-5f8a-4bc6-9b97-97c50320aeb9"] {
+  [data-pc-id="455507c8-5942-47a8-a3c3-e536ddd85e06"] {
     display: none !important;
   }
-  [data-pc-id="0a671a21-505e-40ea-8d9c-ad468dbb1576"] {
+  [data-pc-id="5b44b584-5b6b-4dac-96e2-9693ffeb6ed9"] {
     display: none !important;
   }
-  [data-pc-id="88a089fc-ae2f-42ac-92e6-dda3498bd541"] {
+  [data-pc-id="8d3e4a62-074d-4291-9d25-b05c2a7b0487"] {
     padding: 56px 20px 24px 20px !important;
   }
-  [data-pc-id="76be76a2-8870-4703-a4d3-435e19b52a5d"] {
+  [data-pc-id="d648124e-3a65-4da2-988e-d44875bc0ae6"] {
     padding: 0px 20px 48px 20px !important;
   }
-  [data-pc-id="db547b6d-7ca4-4eea-b195-5ab8cb9fed3b~58ef6796-6a8d-482b-98ea-a21cdd0586ce"] {
+  [data-pc-id="6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~21bf5824-f6dd-4199-9575-bf9c20b78794"] {
     width: 80px !important;
     height: 80px !important;
   }
-  [data-pc-id="db547b6d-7ca4-4eea-b195-5ab8cb9fed3b~cdf0bbd2-0b45-474d-9fbc-ee76f66b190a"] {
+  [data-pc-id="6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~fe16b8cf-df83-443b-a5b4-38a59dcd9396"] {
     width: 80px !important;
     height: 80px !important;
   }
-  [data-pc-id="befb2454-57d3-4ca6-9aad-fa9a937dfb91"] {
+  [data-pc-id="204b8703-f3a3-4f27-85f9-54594c6e7bba"] {
     padding: 56px 20px 56px 20px !important;
   }
 }
-@keyframes timeline-70782b-0 {
+@keyframes timeline-3c3136-0 {
   0% { opacity: 0; }
   0.556% { opacity: 0.187; }
   1.111% { opacity: 0.349; }
@@ -181,7 +181,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   7.222% { opacity: 0.998; }
   100% { opacity: 1; }
 }
-@keyframes timeline-70782b-1 {
+@keyframes timeline-3c3136-1 {
   0% { transform: translate(0px, 63px); opacity: 0; }
   2.222% { transform: translate(0px, 63px); opacity: 0; }
   2.778% { transform: translate(0px, 51.97px); opacity: 0.175; }
@@ -199,7 +199,7 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   12.778% { transform: none; opacity: 1; }
   100% { transform: none; opacity: 1; }
 }
-@keyframes timeline-70782b-2 {
+@keyframes timeline-3c3136-2 {
   0% { transform: translate(0px, 159px); opacity: 0; }
   5.556% { transform: translate(0px, 159px); opacity: 0; }
   6.111% { transform: translate(0px, 131.15px); opacity: 0.175; }
@@ -219,35 +219,35 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
 }`
 export function CartPage({ cart, cartLines, menu, onRemoveCartLine, onCheckout }: CartPageProps = {}) {
   return (
-    <div style={{ position: 'relative', width: '100%', background: 'var(--brand-paper)', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', minHeight: 'max(1024px, 100dvh)' }} data-pc-id="2927bac6-d9b9-49ac-abc4-248dc370782b">
+    <div style={{ position: 'relative', width: '100%', background: 'var(--brand-paper)', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', overflow: 'hidden', minHeight: 'max(1024px, 100dvh)' }} data-pc-id="9792cdbc-5f55-4c94-a43c-9e18803c3136">
       <style>{KEYFRAMES}</style>
-      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '0px', padding: '22px 72px 22px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-70782b-0 6000ms linear 0ms 1 normal both' }} data-pc-id="aa129fcd-01fe-4a12-bb29-3e13c651a4c2" data-motion-child="">
-        <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/" data-pc-id="5196b909-c0ea-4a12-b1af-88eba294281f">
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: '0px', padding: '22px 72px 22px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-3c3136-0 6000ms linear 0ms 1 normal both' }} data-pc-id="d5e8cccd-0729-4e2c-8101-8e7f1449088f" data-motion-child="">
+        <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/" data-pc-id="50435c1a-97ca-4bb3-8418-57f1b2dca469">
           {'Fieldwork'}
         </a>
-        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '28px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="ed6864c2-add8-4bef-a9db-cbcd36e468b5">
-          <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="638fa79d-ab86-4616-9dfd-28d1f57b8b96">
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '28px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="6f38234a-7653-48f4-a461-c9fff8a71eda">
+          <a style={{ display: 'block', color: 'var(--brand-text)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="7465e045-9d18-4a71-b2b6-d68e29d55865">
             {'Shop all'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="8e4f8d71-a787-484b-bb08-ab64f9656155">
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="074b191f-e67c-49b9-b5a5-89542442ca73">
             {'Shirts'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="5a2539af-5f8a-4bc6-9b97-97c50320aeb9">
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="455507c8-5942-47a8-a3c3-e536ddd85e06">
             {'Jackets'}
           </a>
-          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="0a671a21-505e-40ea-8d9c-ad468dbb1576">
+          <a style={{ display: 'block', color: 'var(--brand-onpaper)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} href="/search" data-pc-id="5b44b584-5b6b-4dac-96e2-9693ffeb6ed9">
             {'Knitwear'}
           </a>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="9f14b61c-0065-411c-a3ea-746dc5825b94">
+        <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id="95713ea5-0596-4e93-9bdd-984139aceaba">
           {(cart ? [commerceItem("commerce.cart", cart)] : SAMPLE_CART).slice(0, 1).map(item => (
             <Fragment key={item.id}>
-              <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', borderRadius: '999px', border: '1.5px solid var(--brand-text)', flexDirection: 'row', alignItems: 'center', gap: '8px', padding: '6px 6px 6px 16px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start' }} href="/cart" data-pc-id={"59c59f64-33e4-4fdc-8b28-4790508adbfb~" + item.id}>
-                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"d529d262-bf1b-4081-9bb6-5ee51ed18333~" + item.id}>
+              <a style={{ display: 'flex', color: 'inherit', textDecoration: 'none', borderRadius: '999px', border: '1.5px solid var(--brand-text)', flexDirection: 'row', alignItems: 'center', gap: '8px', padding: '6px 6px 6px 16px', boxSizing: 'border-box', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start' }} href="/cart" data-pc-id={"5e5f0818-97c4-4b31-9aca-4f1178756dd3~" + item.id}>
+                <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '15px', fontWeight: '500', lineHeight: '22px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"be5849e3-617b-4c18-a0d2-5fdbdc8fec40~" + item.id}>
                   {'Cart'}
                 </p>
-                <div style={{ width: '26px', height: '26px', background: 'var(--brand-primary)', borderRadius: '13px', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"13b6e27f-8fe7-45df-b892-0022f56c4058~" + item.id}>
-                  <p style={{ width: '26px', margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'center', color: 'var(--brand-onprimary)', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"6f6213eb-6e72-45b7-bce8-fe5b71205628~" + item.id}>
+                <div style={{ width: '26px', height: '26px', background: 'var(--brand-primary)', borderRadius: '13px', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"d767605b-b357-402c-a8f4-1bb7a6b63a46~" + item.id}>
+                  <p style={{ width: '26px', margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'center', color: 'var(--brand-onprimary)', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"33abf256-6437-48bb-83e2-ca5a34966551~" + item.id}>
                     {commerceWords(item, "count")}
                   </p>
                 </div>
@@ -256,38 +256,38 @@ export function CartPage({ cart, cartLines, menu, onRemoveCartLine, onCheckout }
           ))}
         </div>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '640px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="f9d52d26-4445-42ed-9370-3423ea5d0f02">
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-70782b-1 6000ms linear 0ms 1 normal both' }} data-pc-id="88a089fc-ae2f-42ac-92e6-dda3498bd541" data-motion-child="">
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '800', lineHeight: '46px', letterSpacing: '-1.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="1afc6e26-4831-45f5-90e7-031c47641dbe">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', minHeight: '640px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="3ef87389-b97e-4c8e-a9c4-9f9fe9488399">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', padding: '56px 72px 24px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-3c3136-1 6000ms linear 0ms 1 normal both' }} data-pc-id="8d3e4a62-074d-4291-9d25-b05c2a7b0487" data-motion-child="">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '800', lineHeight: '46px', letterSpacing: '-1.2px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="f7bf6832-e1d8-47d3-b520-baa0674d916e">
             {'Your cart'}
           </p>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'row', gap: '48px', padding: '0px 72px 48px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-70782b-2 6000ms linear 0ms 1 normal both' }} data-pc-id="76be76a2-8870-4703-a4d3-435e19b52a5d" data-motion-child="">
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start' }} data-pc-id="d2c9e921-842f-408b-8d45-36f0e64bb75c">
+        <div style={{ display: 'flex', flexDirection: 'row', gap: '48px', padding: '0px 72px 48px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch', animation: 'timeline-3c3136-2 6000ms linear 0ms 1 normal both' }} data-pc-id="d648124e-3a65-4da2-988e-d44875bc0ae6" data-motion-child="">
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start' }} data-pc-id="9f4ec6db-d040-4167-834e-fc090737f127">
             {(cartLines ? cartLines.map(v => commerceItem("commerce.cartLine", v)) : SAMPLE_CARTLINES).map(item => (
               <Fragment key={item.id}>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"6923eccf-c61e-40dc-9e68-f71aa4fecacf~" + item.id}>
-                  <div style={{ height: '1px', background: 'var(--brand-line)', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"26eae680-3e54-4ce9-ae3f-499df55e2dd1~" + item.id} />
-                  <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '24px', padding: '20px 0px 20px 0px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"d572d8b9-fc98-4deb-9716-9b075b63406d~" + item.id}>
-                    <div style={{ width: '120px', height: '120px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"db547b6d-7ca4-4eea-b195-5ab8cb9fed3b~" + item.id} />
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0' }} data-pc-id={"69e90707-db07-4031-a6a5-92aee02c84af~" + item.id}>
-                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"be79bcd3-e6c3-4734-a8fa-afe3fa2d9453~" + item.id}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"ae9d53ec-4fab-4f9c-b602-db9c1bb6e6cc~" + item.id}>
+                  <div style={{ height: '1px', background: 'var(--brand-line)', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"4d5d5762-5acf-423d-b937-014adbee77b5~" + item.id} />
+                  <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '24px', padding: '20px 0px 20px 0px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"03a656c2-b896-4b7c-9a9b-343871e91984~" + item.id}>
+                    <div style={{ width: '120px', height: '120px', background: "url('" + commerceWords(item, "image") + "') center / cover no-repeat", borderRadius: '4px', maxWidth: '100%', flexShrink: '0' }} data-pc-id={"6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~" + item.id} />
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', padding: '0px 0px 0px 0px', flex: '1 1 0', minWidth: '0' }} data-pc-id={"17e86f68-8c27-4615-9d4a-ebbbc3040cf0~" + item.id}>
+                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"05284a94-cb75-4a59-bbad-b2097602c042~" + item.id}>
                         {commerceWords(item, "title")}
                       </p>
-                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"5d26f4e0-1101-46ab-8f42-085449b42678~" + item.id}>
+                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"e476693d-b797-4a10-a397-b93fbcda81ba~" + item.id}>
                         {commerceWords(item, "variant")}
                       </p>
-                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"3e247a9c-b8df-4b90-b893-2353b915986f~" + item.id}>
+                      <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-onpaper)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"59e62646-1ce0-4fc5-9ecd-d59173e5522c~" + item.id}>
                         {"Qty " + commerceWords(item, "quantity")}
                       </p>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"3af9ad48-158b-4579-aa79-8495fe4922a1~" + item.id}>
-                      <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"fd152a93-773c-413a-b8cd-9349bf92906d~" + item.id}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"78dda626-a2b2-406d-b2bb-2bfdf712c52b~" + item.id}>
+                      <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '500', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-text)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"ee1cda81-e2f8-4172-8b78-fc605c3e80b5~" + item.id}>
                         {commerceWords(item, "price")}
                       </p>
-                      <form style={{ margin: '0', position: 'relative', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"841be6e6-37c1-4e41-a214-fc82a14ceae4~" + item.id} action={onRemoveCartLine}>
-                        <input style={{ display: 'block', border: '0', padding: '0', margin: '0', background: 'none', outline: 'none', font: 'inherit', color: 'var(--brand-text)', minWidth: '0', position: 'absolute', left: '0px', top: '0px', width: '1px', height: 'auto', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '400', lineHeight: 'normal', textAlign: 'left', maxWidth: '100%' }} type="hidden" name="merchandiseId" defaultValue={commerceWords(item, "merchandise_id")} aria-label="merchandiseId" data-pc-id={"4bb7f42c-12d6-49fb-ad82-f4596c90b720~" + item.id} />
-                        <button style={{ display: 'block', border: '0', padding: '0', background: 'none', font: 'inherit', color: 'var(--brand-onpaper)', textAlign: 'left', cursor: 'pointer', position: 'relative', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} type="submit" data-pc-id={"3ef484b4-824b-4db1-8396-04b8f86d9e1b~" + item.id}>
+                      <form style={{ margin: '0', position: 'relative', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0' }} data-pc-id={"43878855-42bf-499f-94b3-d1450741f816~" + item.id} action={onRemoveCartLine}>
+                        <input style={{ display: 'block', border: '0', padding: '0', margin: '0', background: 'none', outline: 'none', font: 'inherit', color: 'var(--brand-text)', minWidth: '0', position: 'absolute', left: '0px', top: '0px', width: '1px', height: 'auto', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '40px', fontWeight: '400', lineHeight: 'normal', textAlign: 'left', maxWidth: '100%' }} type="hidden" name="merchandiseId" defaultValue={commerceWords(item, "merchandise_id")} aria-label="merchandiseId" data-pc-id={"6cb3e489-5764-47ba-a3db-93eb23cb2da9~" + item.id} />
+                        <button style={{ display: 'block', border: '0', padding: '0', background: 'none', font: 'inherit', color: 'var(--brand-onpaper)', textAlign: 'left', cursor: 'pointer', position: 'relative', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} type="submit" data-pc-id={"c7570dad-74df-4f8f-bc56-070076932bc9~" + item.id}>
                           {'Remove'}
                         </button>
                       </form>
@@ -297,42 +297,42 @@ export function CartPage({ cart, cartLines, menu, onRemoveCartLine, onCheckout }
               </Fragment>
             ))}
           </div>
-          <div style={{ width: '400px', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="4398ceb0-7ce0-4bc5-a367-175e3d873e2a">
+          <div style={{ width: '400px', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="721db5c0-0958-4d91-bce6-6a8fa58043a3">
             {(cart ? [commerceItem("commerce.cart", cart)] : SAMPLE_CART).slice(0, 1).map(item => (
               <Fragment key={item.id}>
-                <div style={{ background: 'var(--brand-card)', borderRadius: '4px', border: '1px solid var(--brand-line)', display: 'flex', flexDirection: 'column', gap: '14px', padding: '28px 28px 28px 28px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"3b7b26cd-2bde-43a0-8895-185de5b416e5~" + item.id}>
-                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"8a97f7d2-ef19-413a-a0e8-970ab798259f~" + item.id}>
-                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-cardmuted)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"ad01dcb9-825b-4a5c-9fde-8e07a9de5886~" + item.id}>
+                <div style={{ background: 'var(--brand-card)', borderRadius: '4px', border: '1px solid var(--brand-line)', display: 'flex', flexDirection: 'column', gap: '14px', padding: '28px 28px 28px 28px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"0dc4ecae-fc51-4f13-8035-42910c5841f1~" + item.id}>
+                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"7bc64b05-f723-4332-affe-75c88d0061ff~" + item.id}>
+                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-cardmuted)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"d14696f4-72dd-409a-9e37-ee7d2a23317a~" + item.id}>
                       {'Subtotal'}
                     </p>
-                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'right', color: 'var(--brand-oncard)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"a5f99f29-b639-40c8-ac21-cc6e05f6b1ee~" + item.id}>
+                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'right', color: 'var(--brand-oncard)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"dd77e808-2f98-4080-8135-a980bdf9fd0f~" + item.id}>
                       {commerceWords(item, "subtotal")}
                     </p>
                   </div>
-                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"318a8ac1-6181-4411-ae2f-ae7ba5d0077a~" + item.id}>
-                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-cardmuted)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"1181c4a7-c64e-46dd-a454-aed0da28d610~" + item.id}>
+                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"0acb070f-8c81-4be1-9a87-43b1a05fd3bc~" + item.id}>
+                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-cardmuted)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"b22e52e9-893c-4ca8-ba77-a7c5b13337e9~" + item.id}>
                       {'Taxes'}
                     </p>
-                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'right', color: 'var(--brand-oncard)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"c185dd0b-e3e6-491e-a5ea-084af2e07443~" + item.id}>
+                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'right', color: 'var(--brand-oncard)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"0687b877-dda5-4c0d-b78f-8ec371780fc6~" + item.id}>
                       {commerceWords(item, "taxes")}
                     </p>
                   </div>
-                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"0773f6c5-6640-4536-a81c-504cee78ab57~" + item.id}>
-                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-oncard)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"494de58e-fe4b-4ee3-bbd6-49a045ab374a~" + item.id}>
+                  <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '12px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"c62a7eaf-e925-4f12-8aec-c933d8b03d25~" + item.id}>
+                    <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-oncard)', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"efd735e2-0c84-4827-928b-bcf0d304379d~" + item.id}>
                       {'Total'}
                     </p>
-                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'right', color: 'var(--brand-oncard)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"742c001d-1c9a-459b-b051-66c53771c762~" + item.id}>
+                    <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '17px', fontWeight: '600', lineHeight: '24px', textAlign: 'right', color: 'var(--brand-oncard)', flex: '1 1 0', minWidth: '0', alignSelf: 'flex-start', maxWidth: '100%' }} data-pc-id={"5940b815-bba4-4f8d-8d9a-03608ab8d8ba~" + item.id}>
                       {commerceWords(item, "total")}
                     </p>
                   </div>
-                  <form style={{ margin: '0', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"f46fa7bb-064b-463a-9b3c-ba66ad56a5ea~" + item.id} action={onCheckout}>
-                    <button style={{ display: 'flex', border: '0', padding: '15px 26px 15px 26px', background: 'var(--brand-primary)', font: 'inherit', color: 'inherit', textAlign: 'inherit', cursor: 'pointer', borderRadius: '4px', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} type="submit" data-pc-id={"eb2d55a6-b1a8-4549-a20b-90b0c00d2d05~" + item.id}>
-                      <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onprimary)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"57625752-ce28-4c42-bd79-ed737cf617ce~" + item.id}>
+                  <form style={{ margin: '0', display: 'flex', flexDirection: 'column', gap: '0px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id={"1a88249d-fe0d-478e-b6ae-607b0a449e02~" + item.id} action={onCheckout}>
+                    <button style={{ display: 'flex', border: '0', padding: '15px 26px 15px 26px', background: 'var(--brand-primary)', font: 'inherit', color: 'inherit', textAlign: 'inherit', cursor: 'pointer', borderRadius: '4px', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: '0px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} type="submit" data-pc-id={"32b953b9-77d8-401b-aa04-df8d4e73a607~" + item.id}>
+                      <p style={{ margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '16px', fontWeight: '600', lineHeight: '24px', textAlign: 'left', color: 'var(--brand-onprimary)', flexShrink: '0', width: 'fit-content', maxWidth: '100%' }} data-pc-id={"30721441-c510-46d9-9092-8879c7f16f4b~" + item.id}>
                         {'Check out'}
                       </p>
                     </button>
                   </form>
-                  <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-cardmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"78104931-9c42-4c7d-ba5c-11f88db2d717~" + item.id}>
+                  <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-cardmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id={"9de272c7-32f8-4469-9be2-dbeb34361bea~" + item.id}>
                     {'Free UK delivery over £75 · dispatched in 1–2 working days'}
                   </p>
                 </div>
@@ -341,19 +341,19 @@ export function CartPage({ cart, cartLines, menu, onRemoveCartLine, onCheckout }
           </div>
         </div>
       </div>
-      <div style={{ background: 'var(--brand-tint)', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '48px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="befb2454-57d3-4ca6-9aad-fa9a937dfb91">
-        <div style={{ width: '420px', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="1bd84ad4-c174-4385-b5d8-194405476678">
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="b8ca32bd-7065-46be-9cb1-7b56e6613174">
+      <div style={{ background: 'var(--brand-tint)', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: '48px', padding: '56px 72px 56px 72px', boxSizing: 'border-box', flexShrink: '0', alignSelf: 'stretch' }} data-pc-id="204b8703-f3a3-4f27-85f9-54594c6e7bba">
+        <div style={{ width: '420px', display: 'flex', flexDirection: 'column', gap: '12px', padding: '0px 0px 0px 0px', maxWidth: '100%', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="ff9b206e-06d9-41a5-82f5-c9a8d1bf5446">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '22px', fontWeight: '800', lineHeight: '28px', letterSpacing: '-0.6px', textAlign: 'left', color: 'var(--brand-ontint)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="8d71ef54-1d08-4ca9-91d1-620709f24c21">
             {'Fieldwork'}
           </p>
-          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-tintmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="ed9b2b52-4c2d-456f-96eb-ded85e852b56">
+          <p style={{ margin: '0', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', color: 'var(--brand-tintmuted)', flexShrink: '0', alignSelf: 'stretch', maxWidth: '100%' }} data-pc-id="04ca5bd5-a739-413f-9722-1a2fac69b962">
             {'© 2026 Fieldwork. Prices include VAT; delivery calculated at checkout.'}
           </p>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="e7fa26bf-15c6-4607-be5b-e9f37439f128">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', padding: '0px 0px 0px 0px', flexShrink: '0', alignSelf: 'flex-start' }} data-pc-id="da87a786-b9a4-4f19-b82d-867441aaa349">
           {(menu ? menu.map(v => commerceItem("commerce.menu", v)) : SAMPLE_MENU).map(item => (
             <Fragment key={item.id}>
-              <a style={{ display: 'block', color: 'var(--brand-ontint)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} href={commerceWords(item, "url")} data-pc-id={"6b4f7aea-96f9-422c-ad72-ed20e39af0ce~" + item.id}>
+              <a style={{ display: 'block', color: 'var(--brand-ontint)', textDecoration: 'none', margin: '0', whiteSpace: 'pre-wrap', fontFamily: '"Inter", system-ui, sans-serif', fontSize: '14px', fontWeight: '500', lineHeight: '20px', textAlign: 'left', cursor: 'pointer', flexShrink: '0', alignSelf: 'flex-start', width: 'fit-content', maxWidth: '100%' }} href={commerceWords(item, "url")} data-pc-id={"0b92badc-3f31-4341-8400-57b24b6593a9~" + item.id}>
                 {commerceWords(item, "title")}
               </a>
             </Fragment>
