@@ -1,0 +1,25 @@
+{
+  "name": "popcraft-commerce",
+  "private": true,
+  "description": "Next.js Commerce with its pages drawn by a PopCraft design: Shopify's products, cart and checkout, rendered by components exported from PopCraft.",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "design:sync": "popcraft components design/fieldwork.popcraft --out .",
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@popcraft/runtime": "^0.14.0",
+    "next": "15.6.0-canary.60",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@popcraft/cli": "^0.14.0",
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "typescript": "5.8.2"
+  }
+}
