@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "design:sync": "popcraft components design/fieldwork.popcraft --out .",
+    "design:sync": "popcraft storefront design/fieldwork.popcraft --target next-commerce --out .",
     "test": "tsc --noEmit"
   },
   "dependencies": {

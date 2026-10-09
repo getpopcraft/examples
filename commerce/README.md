@@ -65,7 +65,7 @@ any Next.js app; on Vercel, add the variables to the project.
 3. Export again:
 
 ```bash
-npm run design:sync   # popcraft components design/fieldwork.popcraft --out .
+npm run design:sync   # popcraft storefront design/fieldwork.popcraft --target next-commerce --out .
 ```
 
 Product pictures, titles and prices come from Shopify; what the design draws itself (the hero, the story) comes from
