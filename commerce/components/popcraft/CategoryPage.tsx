@@ -252,198 +252,198 @@ const SAMPLE_MENU: CommerceItem[] = [
 
 const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
 @media (max-width: 1024px) {
-  [data-pc-id="40c877f3-aa3f-4a05-bb33-68ca1860f45d~__pcitem__"] {
+  [data-pc-id^="40c877f3-aa3f-4a05-bb33-68ca1860f45d~"] {
     padding: 22px 40px 22px 40px !important;
   }
-  [data-pc-id="7ffb20f2-f9da-4799-861c-15c2ea345048~__pcitem__"] {
+  [data-pc-id^="7ffb20f2-f9da-4799-861c-15c2ea345048~"] {
     padding: 40px 40px 8px 40px !important;
   }
-  [data-pc-id="723faecd-2298-46d5-947b-dc5f2893d0ed~__pcitem__"] {
+  [data-pc-id^="723faecd-2298-46d5-947b-dc5f2893d0ed~"] {
     width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="579eff27-480d-43b2-8c35-0b5ffbd39c8d~__pcitem__"] {
+  [data-pc-id^="579eff27-480d-43b2-8c35-0b5ffbd39c8d~"] {
     padding: 56px 40px 24px 40px !important;
   }
-  [data-pc-id="a2e525de-8aee-4b88-b6c6-3b8173bf4200~__pcitem__"] {
+  [data-pc-id^="a2e525de-8aee-4b88-b6c6-3b8173bf4200~"] {
     grid-template-columns: 1fr 1fr !important;
     gap: 24px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~7df713f5-172b-4512-ad11-b50b46df4000"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~6a05e218-627d-4049-b0e8-ace81dd7df1e"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 332px !important;
   }
-  [data-pc-id="b9cd0977-a23b-4691-b3d0-3f6bdfaaf78e~__pcitem__"] {
+  [data-pc-id^="b9cd0977-a23b-4691-b3d0-3f6bdfaaf78e~"] {
     justify-content: revert !important;
     flex-direction: column !important;
     padding: 56px 40px 56px 40px !important;
   }
-  [data-pc-id="4e719a8d-bb6e-4393-9937-26727e6c5ee2~__pcitem__"] {
+  [data-pc-id^="4e719a8d-bb6e-4393-9937-26727e6c5ee2~"] {
     width: revert !important;
     max-width: revert !important;
     align-self: stretch !important;
   }
-  [data-pc-id="ba6c78f1-5a1d-476a-b330-be487509d2fa~__pcitem__"] {
+  [data-pc-id^="ba6c78f1-5a1d-476a-b330-be487509d2fa~"] {
     align-self: stretch !important;
   }
 }
 @media (max-width: 640px) {
-  [data-pc-id="27c24a96-ce60-46b3-b198-e37bdeb280b1~__pcitem__"] {
+  [data-pc-id^="27c24a96-ce60-46b3-b198-e37bdeb280b1~"] {
     min-height: max(1043px, 100dvh) !important;
   }
-  [data-pc-id="40c877f3-aa3f-4a05-bb33-68ca1860f45d~__pcitem__"] {
+  [data-pc-id^="40c877f3-aa3f-4a05-bb33-68ca1860f45d~"] {
     padding: 22px 20px 22px 20px !important;
   }
-  [data-pc-id="ce7b08f5-4e78-421a-8a42-159bce41177a~__pcitem__"] {
+  [data-pc-id^="ce7b08f5-4e78-421a-8a42-159bce41177a~"] {
     display: none !important;
   }
-  [data-pc-id="6d3682ec-4f0f-422d-be2f-4c6143f29464~__pcitem__"] {
+  [data-pc-id^="6d3682ec-4f0f-422d-be2f-4c6143f29464~"] {
     display: none !important;
   }
-  [data-pc-id="0f78ccff-cadd-4662-8e14-f7494383c877~__pcitem__"] {
+  [data-pc-id^="0f78ccff-cadd-4662-8e14-f7494383c877~"] {
     display: none !important;
   }
-  [data-pc-id="11f9a079-519d-43fe-bc15-c51360a74533~__pcitem__"] {
+  [data-pc-id^="11f9a079-519d-43fe-bc15-c51360a74533~"] {
     display: none !important;
   }
-  [data-pc-id="1381195f-2ec2-4a4b-b1c8-3524ade06bd8~__pcitem__"] {
+  [data-pc-id^="1381195f-2ec2-4a4b-b1c8-3524ade06bd8~"] {
     display: none !important;
   }
-  [data-pc-id="7ffb20f2-f9da-4799-861c-15c2ea345048~__pcitem__"] {
+  [data-pc-id^="7ffb20f2-f9da-4799-861c-15c2ea345048~"] {
     padding: 40px 20px 8px 20px !important;
   }
-  [data-pc-id="579eff27-480d-43b2-8c35-0b5ffbd39c8d~__pcitem__"] {
+  [data-pc-id^="579eff27-480d-43b2-8c35-0b5ffbd39c8d~"] {
     padding: 56px 20px 24px 20px !important;
   }
-  [data-pc-id="a2e525de-8aee-4b88-b6c6-3b8173bf4200~__pcitem__"] {
+  [data-pc-id^="a2e525de-8aee-4b88-b6c6-3b8173bf4200~"] {
     grid-template-columns: 1fr !important;
     gap: 16px !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~56ed2e63-c3de-4050-a6d2-981fea395b59"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~5e515d30-897c-4c19-b099-5870d6f5656e"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~07d57f26-345c-46ce-959a-7fb64f2a946e"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~3ee6b33b-5941-497c-a77a-c5de61dddf0a"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~086c362f-12f8-40d8-abb3-41c8a13286f7"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~ac41a306-731d-47d1-888d-93a181a62cfb"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~7df713f5-172b-4512-ad11-b50b46df4000"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~7df713f5-172b-4512-ad11-b50b46df4000"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~7df713f5-172b-4512-ad11-b50b46df4000"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="4c63a839-0ad0-4267-9e4f-62862ef70042~__pcitem__~6a05e218-627d-4049-b0e8-ace81dd7df1e"] {
+  [data-pc-id^="4c63a839-0ad0-4267-9e4f-62862ef70042~"] {
     height: 335px !important;
   }
-  [data-pc-id="daa0fd4d-bbff-4982-852b-ede97f6d6113~__pcitem__~6a05e218-627d-4049-b0e8-ace81dd7df1e"] {
+  [data-pc-id^="daa0fd4d-bbff-4982-852b-ede97f6d6113~"] {
     flex-direction: column !important;
     gap: 2px !important;
   }
-  [data-pc-id="50e71976-1b75-426e-b3b2-521d159b6b06~__pcitem__~6a05e218-627d-4049-b0e8-ace81dd7df1e"] {
+  [data-pc-id^="50e71976-1b75-426e-b3b2-521d159b6b06~"] {
     flex: revert !important;
     min-width: revert !important;
     flex-shrink: 0 !important;
     align-self: stretch !important;
   }
-  [data-pc-id="b9cd0977-a23b-4691-b3d0-3f6bdfaaf78e~__pcitem__"] {
+  [data-pc-id^="b9cd0977-a23b-4691-b3d0-3f6bdfaaf78e~"] {
     padding: 56px 20px 56px 20px !important;
   }
 }

@@ -153,11 +153,11 @@ const KEYFRAMES = `@import url('https://fonts.googleapis.com/css2?family=Inter:w
   [data-pc-id="d648124e-3a65-4da2-988e-d44875bc0ae6"] {
     padding: 0px 20px 48px 20px !important;
   }
-  [data-pc-id="6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~21bf5824-f6dd-4199-9575-bf9c20b78794"] {
+  [data-pc-id^="6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~"] {
     width: 80px !important;
     height: 80px !important;
   }
-  [data-pc-id="6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~fe16b8cf-df83-443b-a5b4-38a59dcd9396"] {
+  [data-pc-id^="6dd1cad7-9cf2-4575-ba40-e0a6485a8a12~"] {
     width: 80px !important;
     height: 80px !important;
   }
