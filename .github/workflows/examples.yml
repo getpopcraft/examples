@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        example: [templates, kit/social-cards, kit/design-check, kit/typed-script, cli/build-a-design, cli/translate, runtime/expressions, runtime/site-backend]
+        example: [templates, kit/social-cards, kit/design-check, kit/typed-script, cli/build-a-design, cli/translate, runtime/expressions, runtime/site-backend, commerce]
     defaults:
       run:
         working-directory: ${{ matrix.example }}
